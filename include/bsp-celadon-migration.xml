@@ -6,9 +6,6 @@
       <annotation name="all_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" groups="bsp" revision="android/q/celadon/migration">
-      <annotation name="readonly" value="false"/>
-  </project>
   <project path="device/intel/project-celadon" name="a/bsp/device/intel/android_ia" groups="bsp" revision="android/q/celadon/migration">
       <annotation name="readonly" value="false"/>
   </project>
@@ -34,12 +31,6 @@
   </project>
   <project path="external/thermal_daemon" name="a/bsp/platform/external/thermal_daemon" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
-  </project>
-  <project path="hardware/intel/bootctrl" name="a/bsp/hardware/intel/bootctrl" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
-      <annotation name="g_external" value="no"/>
-      <annotation name="all_external" value="no"/>
-      <annotation name="bxt_rvp_external" value="no"/>
-      <annotation name="readonly" value="false"/>
   </project>
   <project path="hardware/intel/display/libmemtrack" name="a/bsp/hardware/intel/display/libmemtrack" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>

@@ -9,6 +9,7 @@
   <project name="external_pystache" path="external/pystache" remote="github" revision="master" />
   <project name="hardware_intel_audio" path="vendor/intel/external/project-celadon/audio_pfw/hal" remote="github" revision="master" />
   <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/project-celadon/audio_pfw/utilities" remote="github" revision="master" />
+  <project name="hardware-intel-bootctrl" path="hardware/intel/bootctrl" remote="github" revision="master" />
   <project name="lighthal" path="vendor/intel/external/project-celadon/lights" remote="github" revision="master"/>
   <project name="mainline-tracking" path="kernel/mainline-tracking" remote="intel" revision="master"/>
   <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="stable"/>
