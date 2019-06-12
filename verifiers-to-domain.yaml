@@ -1,0 +1,98 @@
+ldap//CN=OTC_SI_1A-Verif-ABL,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'ABL'
+ldap//CN=OTC_SI_1A-Verif-Art,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Art'
+ldap//CN=OTC_SI_1A-Verif-Audio_Common,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Audio Common'
+ldap//CN=OTC_SI_1A-Verif-Audio_Trail,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Audio Trail'
+ldap//CN=OTC_SI_1A-Verif-BOOT_OTA_GOTA,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'BOOT - OTA - GOTA'
+ldap//CN=SIS_1A-Verif-Audio_OpenSource_Stack,OU=Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Audio / OpenSource Stack'
+ldap//CN=OTC_SI_1A-Verif-CAM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'CAM'
+ldap//CN=OTC_SI_1A-Verif-Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Camera - Imaging'
+ldap//CN=OTC_SI_1A-Verif-Car_Services,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Car Utilities'
+ldap//CN=SIS_1A-Verif-Carrier,OU=Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Carrier'
+ldap//CN=OTC_SI_1A-Verif-Conn-ACP-BT,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-ACP-BT'
+ldap//CN=OTC_SI_1A-Verif-Conn-ACP-CellCoex,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-ACP-CellCoex'
+ldap//CN=OTC_SI_1A-Verif-Conn-ACP-FM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-ACP-FM'
+ldap//CN=OTC_SI_1A-Verif-Conn-ACP-GNSS,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-ACP-GNSS'
+ldap//CN=OTC_SI_1A-Verif-Conn-ACP-NFC,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-ACP-NFC'
+ldap//CN=OTC_SI_1A-Verif-Conn-ACP-WIFI,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-ACP-WIFI'
+ldap//CN=OTC_SI_1A-Verif-Conn-MFG-DBG,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-Manufacturing-Debug'
+ldap//CN=OTC_SI_1A-Verif-Conn-IOSM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-IOSM'
+ldap//CN=OTC_SI_1A-Verif-Conn-TPV-BT,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-TPV-BT'
+ldap//CN=OTC_SI_1A-Verif-Conn-TPV-FM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-TPV-FM'
+ldap//CN=OTC_SI_1A-Verif-Conn-TPV-GNSS,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-TPV-GNSS'
+ldap//CN=OTC_SI_1A-Verif-Conn-TPV-NFC,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-TPV-NFC'
+ldap//CN=OTC_SI_1A-Verif-Conn-TPV-WIFI,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Connectivity-TPV-WIFI'
+ldap//CN=OTC_SI_1A-Verif-Debug_Trace,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Debug and Trace'
+ldap//CN=OTC_SI_1A-Verif-DRM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'DRM - Widevine'
+ldap//CN=OTC_SI_1A-Verif-Energy_Mgt,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Energy management'
+ldap//CN=OTC_SI_1A-Verif-Gfx_Display_Drm,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Gfx / Display Drm'
+ldap//CN=OTC_SI_1A-Verif-GFX_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'GFX / Display Gen'
+ldap//CN=SIS_1A-Verif-GFX_OpenSource_Display,OU=Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'GFX / OpenSource Display'
+ldap//CN=SIS_1A-Verif-GFX_OpenSource_GFX,OU=Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'GFX / OpenSource GFX'
+ldap//CN=OTC_SI_1A-Verif-ISH,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'ISH'
+ldap//CN=OTC_SI_1A-Verif-Kernel,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Kernel'
+ldap//CN=SIS_1A-Verif-Machine_Learning,OU=Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Machine Learning'
+ldap//CN=OTC_SI_1A-Verif-Manifest,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Manifest'
+ldap//CN=SIS_1A-Verif-Manufacturing_OS,OU=Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Manufacturing OS'
+ldap//CN=OTC_SI_1A-Verif-Perceptual_Camera,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Perceptual Camera'
+ldap//CN=OTC_SI_1A-Verif-Platform_BIOS,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform BIOS'
+ldap//CN=OTC_SI_1A-Verif-Platform_Broxton,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform Broxton'
+ldap//CN=SIS_1A-Verif-Platform_Celadon,OU=Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform Celadon'
+ldap//CN=OTC_SI_1A-Verif-Platform_Config,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform Config'
+ldap//CN=SIS_1A-Verif-Platform_Elkhartlake,OU=Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform Elkhartlake'
+ldap//CN=OTC_SI_1A-Verif-Platform_IceLakeu,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Platform IceLakeu'
+ldap//CN=OTC_SI_1A-Verif-PM,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Power Management'
+ldap//CN=SIS_1A-Verif-Profiling_Tools,OU=Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Profiling Tools'
+ldap//CN=OTC_SI_1A-Verif-Sensors,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Sensors'
+ldap//CN=OTC_SI_1A-Verif-Telephony,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Telephony'
+ldap//CN=OTC_SI_1A-Verif-Trusty,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Trusty'
+ldap//CN=SIS_1A-Verif-USB,OU=Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'USB'
+ldap//CN=OTC_SI_1A-Verif-Video_Gen,OU=Rialto,OU=Application Managed,OU=Groups,DC=amr,DC=corp,DC=intel,DC=com:
+- 'Video Gen'
