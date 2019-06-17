@@ -5,6 +5,7 @@
   <project name="lighthal" path="vendor/intel/external/project-celadon/lights" remote="github" revision="master"/>
   <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="intel" revision="master"/>
   <project name="dldt" path="vendor/intel/external/project-celadon/dldt" remote="opencv" revision="2018"/>
+  <project name="device-androidia" path="device/intel/project-celadon" remote="github" revision="master" />
   <project name="ade" path="vendor/intel/external/project-celadon/ade" remote="opencv" revision="master"/>
   <project name="celadon-applications" path="vendor/intel/external/apps" remote="intel" revision="stable"/>
   <project name="bootable-live-installer" path="bootable/liveinstaller" groups="pdk" remote="github" revision="master" />
