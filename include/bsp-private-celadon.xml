@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="manifests" name="manifests"  groups="bsp-priv,embargoed" revision="android/q/celadon/enabling" remote="origin">
+  <project path="manifests" name="manifests"  groups="bsp-priv,embargoed" revision="android/q/celadon/migration" remote="origin">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" groups="bsp" revision="android/q/celadon/migration">
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="device/intel/build" name="a/bsp/vendor/intel/build" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="device/intel/build" name="a/bsp/vendor/intel/build" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="device/intel/common" name="a/bsp/vendor/intel/common" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="device/intel/common" name="a/bsp/vendor/intel/common" groups="bsp" revision="android/q/celadon/migration">
       <copyfile dest="vendor/intel/hardware/Android.bp" src="Android_intel.bp"/>
       <copyfile dest="vendor/intel/audio/Android.bp" src="Android_intel.bp"/>
       <copyfile dest="hardware/intel/Android.bp" src="Android_intel.bp"/>
@@ -20,203 +20,203 @@
       <copyfile dest="hardware/intel/audio/coe/Android.bp" src="Android_intel.bp"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="device/intel/sepolicy" name="a/bsp/device/intel/sepolicy" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="device/intel/sepolicy" name="a/bsp/device/intel/sepolicy" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="external/thermal_daemon" name="a/bsp/platform/external/thermal_daemon" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="external/thermal_daemon" name="a/bsp/platform/external/thermal_daemon" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/bootctrl" name="a/bsp/hardware/intel/bootctrl" groups="bsp-priv,embargoed" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/bootctrl" name="a/bsp/hardware/intel/bootctrl" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/display/libmemtrack" name="a/bsp/hardware/intel/display/libmemtrack" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/display/libmemtrack" name="a/bsp/hardware/intel/display/libmemtrack" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/efiwrapper" name="a/bsp/vendor/intel/efiwrapper" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/efiwrapper" name="a/bsp/vendor/intel/efiwrapper" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/external/drm-intel" name="a/bsp/vendor/intel/external/drm-intel" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/external/drm-intel" name="a/bsp/vendor/intel/external/drm-intel" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/external/gnu-efi" name="a/bsp/platform/external/gnu-efi" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/external/gnu-efi" name="a/bsp/platform/external/gnu-efi" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/external/libva" name="a/bsp/hardware/intel/libva" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/external/libva" name="a/bsp/hardware/intel/libva" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/external/media/hdcp" name="a/bsp/hardware/intel/external/media/hdcp" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/external/media/hdcp" name="a/bsp/hardware/intel/external/media/hdcp" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/external/media/gmmlib" name="a/bsp/hardware/intel/external/media/gmmlib" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/external/media/gmmlib" name="a/bsp/hardware/intel/external/media/gmmlib" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/external/media/mod" name="a/bsp/hardware/intel/external/media/mod" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/external/media/mod" name="a/bsp/hardware/intel/external/media/mod" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/external/mesa3d-intel" name="a/bsp/vendor/intel/external/mesa3d" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/external/mesa3d-intel" name="a/bsp/vendor/intel/external/mesa3d" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/external/minigbm-intel" name="a/bsp/vendor/intel/external/minigbm" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/external/minigbm-intel" name="a/bsp/vendor/intel/external/minigbm" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/external/safestringlib" name="a/bsp/hardware/intel/external/safestringlib" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/external/safestringlib" name="a/bsp/hardware/intel/external/safestringlib" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/kernelflinger" name="a/bsp/hardware/intel/efi/kernelflinger" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/kernelflinger" name="a/bsp/hardware/intel/efi/kernelflinger" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/libbt-vendor-intel" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/libbt-vendor-intel" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/usb" name="a/bsp/hardware/intel/usb" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/usb" name="a/bsp/hardware/intel/usb" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/vehicle" name="a/bsp/hardware/intel/vehicle" groups="bsp-priv" revision="android/q/celadon/enabling">
+  <project path="hardware/intel/vehicle" name="a/bsp/hardware/intel/vehicle" groups="bsp-priv" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="kernel/4.14" name="a/bsp/kernel/4.14" groups="bsp,kernel-src" revision="android/q/celadon/enabling">
+  <project path="kernel/4.14" name="a/bsp/kernel/4.14" groups="bsp,kernel-src" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="kernel/config-lts/lts2018" name="a/bsp/kernel/config-lts-2018" groups="bsp,kernel-src,soc_bxt" revision="android/q/celadon/enabling">
+  <project path="kernel/config-lts/lts2018" name="a/bsp/kernel/config-lts-2018" groups="bsp,kernel-src,soc_bxt" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="kernel/config-lts/v4.14" name="a/bsp/kernel/config-lts-414" groups="bsp,kernel-src" revision="android/q/celadon/enabling">
+  <project path="kernel/config-lts/v4.14" name="a/bsp/kernel/config-lts-414" groups="bsp,kernel-src" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="kernel/config-mainline-tracking"  name="a/bsp/kernel/config-mainline-tracking" groups="bsp,kernel-src" revision="android/q/celadon/enabling">
+  <project path="kernel/config-mainline-tracking"  name="a/bsp/kernel/config-mainline-tracking" groups="bsp,kernel-src" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="kernel/lts2018" name="a/bsp/kernel/lts2018" groups="bsp,kernel-src" revision="android/q/celadon/enabling">
+  <project path="kernel/lts2018" name="a/bsp/kernel/lts2018" groups="bsp,kernel-src" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="kernel/mainline-tracking" name="a/bsp/kernel/mainline-tracking" groups="bsp,kernel-src" revision="android/q/celadon/enabling">
+  <project path="kernel/mainline-tracking" name="a/bsp/kernel/mainline-tracking" groups="bsp,kernel-src" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="kernel/modules/perftools-external" name="a/bsp/kernel/modules/perftools-external" groups="bsp,kernel-src" revision="android/q/celadon/enabling">
+  <project path="kernel/modules/perftools-external" name="a/bsp/kernel/modules/perftools-external" groups="bsp,kernel-src" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="trusty/app/sand" name="a/bsp/vendor/intel/fw/trusty_app_sand" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/enabling">
+  <project path="trusty/app/sand" name="a/bsp/vendor/intel/fw/trusty_app_sand" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="trusty/device/x86/sand" name="a/bsp/vendor/intel/fw/trusty_device_x86_sand" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/enabling">
+  <project path="trusty/device/x86/sand" name="a/bsp/vendor/intel/fw/trusty_device_x86_sand" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
       <copyfile src="project/generate_prebuilt.sh" dest="trusty/generate_prebuilt.sh" />
   </project>
-  <project path="trusty/platform/sand" name="a/bsp/vendor/intel/fw/trusty_lk_trusty_platform_sand" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/enabling">
+  <project path="trusty/platform/sand" name="a/bsp/vendor/intel/fw/trusty_lk_trusty_platform_sand" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="trusty/target/sand" name="a/bsp/vendor/intel/fw/trusty_lk_trusty_target_sand" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/enabling">
+  <project path="trusty/target/sand" name="a/bsp/vendor/intel/fw/trusty_lk_trusty_target_sand" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/google/gas" name="a/bsp/vendor/google/gas" groups="bsp-priv,embargoed" revision="android/q/celadon/enabling">
+  <project path="vendor/google/gas" name="a/bsp/vendor/google/gas" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="3" spsId="59122" revision="android/q/celadon/enabling">
+  <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="3" spsId="59122" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/apps/AndroidTerm" name="a/bsp/platform/packages/apps/AndroidTerm" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/apps/AndroidTerm" name="a/bsp/platform/packages/apps/AndroidTerm" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/art-extension" name="a/bsp/vendor/intel/PRIVATE/art-extension" groups="bsp-priv" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/art-extension" name="a/bsp/vendor/intel/PRIVATE/art-extension" groups="bsp-priv" revision="android/q/celadon/migration">
       <annotation name="g_external" value="bin"/>
       <annotation name="all_external" value="bin"/>
       <annotation name="bxt_rvp_external" value="bin"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/external/hcitools-intel" name="a/bsp/platform/external/bluetooth/hcitools" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/external/hcitools-intel" name="a/bsp/platform/external/bluetooth/hcitools" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/external/hwcomposer-intel" name="a/bsp/vendor/intel/external/hwcomposer" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/external/hwcomposer-intel" name="a/bsp/vendor/intel/external/hwcomposer" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/external/libbt-vendor-linux-intel" name="a/bsp/platform/external/bluetooth/libbt-vendor-linux" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/external/libbt-vendor-linux-intel" name="a/bsp/platform/external/bluetooth/libbt-vendor-linux" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/external/mediasdk_opensource" name="a/bsp/vendor/intel/external/mediasdk_opensource" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/external/mediasdk_opensource" name="a/bsp/vendor/intel/external/mediasdk_opensource" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/external/ml/nn-hal" name="a/bsp/vendor/intel/external/ml/nn-hal" groups="bsp-priv,embargoed" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/external/ml/nn-hal" name="a/bsp/vendor/intel/external/ml/nn-hal" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/external/pciutils-intel" name="a/bsp/platform/external/pciutils" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/external/pciutils-intel" name="a/bsp/platform/external/pciutils" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/fw/evmm" name="a/bsp/vendor/intel/fw/evmm" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/fw/evmm" name="a/bsp/vendor/intel/fw/evmm" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/fw/i915" name="a/bsp/vendor/intel/fw/i915" groups="bsp-priv,embargoed" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/fw/i915" name="a/bsp/vendor/intel/fw/i915" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
       <annotation name="g_external" value="bin"/>
       <annotation name="all_external" value="bin"/>
       <annotation name="bxt_rvp_external" value="bin"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/hardware/PRIVATE/libmediaparser" name="a/bsp/vendor/intel/hardware/PRIVATE/libmediaparser" groups="bsp-priv" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/hardware/PRIVATE/libmediaparser" name="a/bsp/vendor/intel/hardware/PRIVATE/libmediaparser" groups="bsp-priv" revision="android/q/celadon/migration">
       <annotation name="g_external" value="bin"/>
       <annotation name="all_external" value="bin"/>
       <annotation name="bxt_rvp_external" value="bin"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/hardware/storage" name="a/bsp/vendor/intel/hardware/storage" groups="bsp-priv,embargoed" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/hardware/storage" name="a/bsp/vendor/intel/hardware/storage" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/libdmi" name="a/bsp/vendor/intel/libdmi" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/libdmi" name="a/bsp/vendor/intel/libdmi" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/mediasdk_release" name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/mediasdk_release" name="a/bsp/hardware/intel/PRIVATE/mediasdk_release" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/pstore-clean" name="a/bsp/hardware/intel/pstore-clean" groups="bsp" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/pstore-clean" name="a/bsp/hardware/intel/pstore-clean" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/tools/debug_agent" name="a/bsp/vendor/intel/tools/debug_agent" groups="bsp,soc_bxt" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/tools/debug_agent" name="a/bsp/vendor/intel/tools/debug_agent" groups="bsp,soc_bxt" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/tools/ittapi" name="a/bsp/vendor/intel/tools/ittapi" groups="bsp,soc_bxt" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/tools/ittapi" name="a/bsp/vendor/intel/tools/ittapi" groups="bsp,soc_bxt" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture" spsId="59066" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture" spsId="59066" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/tools/log_infra" name="a/bsp/device/intel/log_infra" groups="bsp-priv,embargoed" spsId="59067" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/tools/log_infra" name="a/bsp/device/intel/log_infra" groups="bsp-priv,embargoed" spsId="59067" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/utils" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" revision="android/q/celadon/enabling">
+  <project path="vendor/intel/utils" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
