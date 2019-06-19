@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <notice>One_Android_Ring='2'</notice>
+
   <default revision="android/q/mr0/r0"
            remote="origin"
            sync-c="true"
