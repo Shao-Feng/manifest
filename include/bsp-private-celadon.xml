@@ -83,13 +83,7 @@
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="kernel/4.14" name="a/bsp/kernel/4.14" groups="bsp,kernel-src" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
   <project path="kernel/config-lts/lts2018" name="a/bsp/kernel/config-lts-2018" groups="bsp,kernel-src,soc_bxt" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
-  <project path="kernel/config-lts/v4.14" name="a/bsp/kernel/config-lts-414" groups="bsp,kernel-src" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
   <project path="kernel/config-mainline-tracking"  name="a/bsp/kernel/config-mainline-tracking" groups="bsp,kernel-src" revision="android/q/celadon/migration">
