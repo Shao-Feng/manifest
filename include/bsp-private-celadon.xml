@@ -101,6 +101,8 @@
   <project path="kernel/modules/perftools-external" name="a/bsp/kernel/modules/perftools-external" groups="bsp,kernel-src" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-poky" name="a/bsp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-poky-1.8" groups="bsp" revision="android/master">
+  </project>
   <project path="trusty/app/sand" name="a/bsp/vendor/intel/fw/trusty_app_sand" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
