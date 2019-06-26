@@ -158,12 +158,6 @@
   <project path="vendor/intel/external/mediasdk_opensource" name="a/bsp/vendor/intel/external/mediasdk_opensource" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/external/ml/nn-hal" name="a/bsp/vendor/intel/external/ml/nn-hal" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
-      <annotation name="g_external" value="no"/>
-      <annotation name="all_external" value="no"/>
-      <annotation name="bxt_rvp_external" value="no"/>
-      <annotation name="readonly" value="false"/>
-  </project>
   <project path="vendor/intel/external/pciutils-intel" name="a/bsp/platform/external/pciutils" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
