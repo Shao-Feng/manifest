@@ -675,7 +675,7 @@
 
   <project groups="pdk" name="a/aosp/platform/external/ukey2" path="external/ukey2"/>
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/SampleLocationAttribution" path="packages/apps/SampleLocationAttribution"/>
-
+  <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/packages/modules/ExtServices" path="packages/modules/ExtServices"/>
   <repo-hooks enabled-list="pre-upload" in-project="a/aosp/platform/tools/repohooks"/>
 </manifest>
 
