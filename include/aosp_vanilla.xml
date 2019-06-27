@@ -5,7 +5,9 @@
   <project groups="pdk" name="a/aosp/platform/external/setupdesign" path="external/setupdesign"/>
   <project  groups="pdk" name="a/aosp/platform/prebuilts/bundletool" path="prebuilts/bundletool"/>
   <project groups="pdk" name="a/aosp/platform/system/libsysprop" path="system/libsysprop"/>
+  <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Car/Cluster" path="packages/apps/Car/Cluster"/>
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Car/LinkViewer" path="packages/apps/Car/LinkViewer"/>
+  <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Car/tests" path="packages/apps/Car/tests"/>
   <project groups="pdk" name="a/aosp/platform/external/apache-commons-compress" path="external/apache-commons-compress"/>
   <project groups="pdk,tradefed" name="a/aosp/platform/external/grpc-grpc-java" path="external/grpc-grpc-java"/>
   <project groups="pdk" name="a/aosp/platform/external/libutf" path="external/libutf"/>
@@ -13,6 +15,7 @@
   <project groups="pdk" name="a/aosp/platform/external/python/funcsigs" path="external/python/funcsigs"/>
   <project groups="pdk" name="a/aosp/platform/external/python/mock" path="external/python/mock"/>
   <project groups="pdk,tradefed" name="a/aosp/platform/external/grpc-grpc" path="external/grpc-grpc"/>
+  <project clone-depth="1" groups="pdk" name="a/aosp/platform/prebuilts/ktlint" path="prebuilts/ktlint"/>
   <project groups="pdk" name="a/aosp/platform/system/iorap" path="system/iorap"/>
   <project groups="pdk-cw-fs,pdk" name="a/aosp/device/common" path="device/common"/>
   <project groups="pdk" name="a/aosp/device/generic/arm64" path="device/generic/arm64"/>

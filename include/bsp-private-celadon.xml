@@ -9,6 +9,7 @@
   <project path="bootable/userfastboot" name="a/bsp/platform/bootable/userfastboot" groups="bsp" revision="android/q/celadon/migration">
       <annotation name="readonly" value="false"/>
   </project>
+  <project path="device/intel/project-celadon" name="a/bsp/device/intel/android_ia" groups="bsp" revision="android/q/celadon/migration"/>
   <project path="device/intel/build" name="a/bsp/vendor/intel/build" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
@@ -20,6 +21,11 @@
       <copyfile dest="hardware/intel/audio/coe/Android.bp" src="Android_intel.bp"/>
       <annotation name="readonly" value="false"/>
   </project>
+  <project path="device/intel/mixins" name="a/bsp/device/intel/mixins" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
+        <annotation name="g_external" value="no"/>
+        <annotation name="all_external" value="no"/>
+        <annotation name="bxt_rvp_external" value="no"/>
+    </project>
   <project path="device/intel/sepolicy" name="a/bsp/device/intel/sepolicy" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
