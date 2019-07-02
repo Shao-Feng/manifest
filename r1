@@ -15,6 +15,9 @@
   <remote  name="github"
            fetch="https://github.com/projectceladon/" />
 
+  <remote name="github_all"
+          fetch="ssh://github.com/" />
+
   <remote name="kernelorg" fetch="https://git.kernel.org/" />
 
   <remote  name="graphics"
