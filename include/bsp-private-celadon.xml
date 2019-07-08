@@ -47,9 +47,6 @@
   <project path="hardware/intel/efiwrapper" name="a/bsp/vendor/intel/efiwrapper" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/external/drm-intel" name="a/bsp/vendor/intel/external/drm-intel" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
   <project path="hardware/intel/external/gnu-efi" name="a/bsp/platform/external/gnu-efi" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
@@ -66,9 +63,6 @@
         <annotation name="readonly" value="false"/>
   </project>
   <project path="hardware/intel/external/mesa3d-intel" name="a/bsp/vendor/intel/external/mesa3d" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
-  <project path="hardware/intel/external/minigbm-intel" name="a/bsp/vendor/intel/external/minigbm" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
   <project path="hardware/intel/external/safestringlib" name="a/bsp/hardware/intel/external/safestringlib" groups="bsp" revision="android/q/celadon/migration">
@@ -93,12 +87,6 @@
         <annotation name="readonly" value="false"/>
   </project>
   <project path="kernel/lts2018" name="a/bsp/kernel/lts2018" groups="bsp,kernel-src" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
-  <project path="kernel/mainline-tracking" name="a/bsp/kernel/mainline-tracking" groups="bsp,kernel-src" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
-  <project path="kernel/modules/perftools-external" name="a/bsp/kernel/modules/perftools-external" groups="bsp,kernel-src" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-poky" name="a/bsp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-poky-1.8" groups="bsp" revision="android/master">
@@ -137,9 +125,6 @@
   <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="3" spsId="59122" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/apps/AndroidTerm" name="a/bsp/platform/packages/apps/AndroidTerm" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
   <project path="vendor/intel/art-extension" name="a/bsp/vendor/intel/PRIVATE/art-extension" groups="bsp-priv" revision="android/q/celadon/migration">
       <annotation name="g_external" value="bin"/>
       <annotation name="all_external" value="bin"/>
@@ -147,9 +132,6 @@
       <annotation name="readonly" value="false"/>
   </project>
   <project path="vendor/intel/external/hcitools-intel" name="a/bsp/platform/external/bluetooth/hcitools" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
-  <project path="vendor/intel/external/hwcomposer-intel" name="a/bsp/vendor/intel/external/hwcomposer" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
   <project path="vendor/intel/external/libbt-vendor-linux-intel" name="a/bsp/platform/external/bluetooth/libbt-vendor-linux" groups="bsp" revision="android/q/celadon/migration">
@@ -188,8 +170,11 @@
   <project path="vendor/intel/pstore-clean" name="a/bsp/hardware/intel/pstore-clean" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/tools/debug_agent" name="a/bsp/vendor/intel/tools/debug_agent" groups="bsp,soc_bxt" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
+  <project path="vendor/intel/tools/peeknpoke-intel" name="a/bsp/vendor/intel/tools/peeknpoke" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
+      <annotation name="g_external" value="no"/>
+      <annotation name="all_external" value="no"/>
+      <annotation name="bxt_rvp_external" value="no"/>
+      <annotation name="readonly" value="false"/>
   </project>
   <project path="vendor/intel/tools/ittapi" name="a/bsp/vendor/intel/tools/ittapi" groups="bsp,soc_bxt" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
@@ -203,6 +188,7 @@
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
+  <!-- project path="vendor/intel/utils_priv" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" revision="android/q/celadon/migration" -->
   <project path="vendor/intel/utils" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>

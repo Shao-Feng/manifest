@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- from Github repositories -->
+  <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="stable" />
   <project name="external_pystache" path="external/pystache" remote="github" revision="master" />
   <project name="lighthal" path="vendor/intel/external/project-celadon/lights" remote="github" revision="master"/>
   <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="intel" revision="master"/>
@@ -11,7 +12,11 @@
   <project name="device-androidia-sound" path="vendor/intel/external/project-celadon/audio" remote="github" revision="master" />
   <project name="hardware_intel_audio" path="vendor/intel/external/project-celadon/audio_pfw/hal" remote="github" revision="master" />
   <project name="hardware_intel_audiocomms_utilities" path="vendor/intel/external/project-celadon/audio_pfw/utilities" remote="github" revision="master" />
+  <project name="mainline-tracking" path="kernel/mainline-tracking" remote="intel" revision="master"/>
+  <project name="minigbm" path="hardware/intel/external/minigbm-intel" remote="github" revision="master"/>
   <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/project-celadon/audio_pfw/plugins/alsa" remote="github" revision="master" />
+  <!--project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="master" /-->
+  <project name="IA-Hardware-Composer" path="vendor/intel/external/hwcomposer-intel" remote="github" revision="master" />
 
     <!-- From public kernel.org -->
   <project name="vendor-linux-firmware" path="vendor/linux/firmware" remote="github" revision="master" />
