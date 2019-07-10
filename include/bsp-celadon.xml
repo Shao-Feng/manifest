@@ -14,6 +14,7 @@
   <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="stable"/>
   <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="intel" revision="master"/>
   <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces" remote="github" revision="stable"/>
+  <project name="pciutils" path="vendor/intel/external/pciutils-intel" remote="github" revision="master" />
   <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/project-celadon/audio_pfw/plugins/alsa" remote="github" revision="master" />
   <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="migration" >
       <annotation name="readonly" value="false"/>
