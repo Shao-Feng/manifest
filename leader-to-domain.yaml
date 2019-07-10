@@ -1,5 +1,4 @@
 abhilash.kesavan@intel.com:
-- 'PnP'
 - 'Power management'
 abhilash.k.v@intel.com:
 - 'USB'
@@ -17,6 +16,8 @@ baofeng.tian@intel.com:
 - 'Debug and Trace'
 cathy.bao@intel.com:
 - 'Storage'
+cynthia.yu@intel.com:
+- 'PnP'
 guangxin.xu@intel.com:
 - 'Media'
 james.wu@intel.com:
@@ -33,17 +34,14 @@ johnson.lin@intel.com:
 - 'Graphics'
 - 'HDMI'
 - 'renderscript'
+karan.patidar@intel.com:
+- 'Audio'
 kumar.k.m@intel.com:
 - 'Audio'
-- 'Audio Comms'
 lang.li@intel.com:
 - 'Manifest'
 luhai.chen@intel.com:
 - 'Android for Work'
-madhusudhan.s@intel.com:
-- 'PnP'
-muhammad.aksar@intel.com:
-- 'Camera'
 murali.mohan@intel.com:
 - 'ART'
 pankaj.laxminarayan.bharadiya@intel.com:
@@ -52,8 +50,6 @@ philippe.regnier@intel.com:
 - 'OTA Update'
 qihua.zhuang@intel.com:
 - 'BOOT - OTA - GOTA'
-rajesh.tiwari@intel.com:
-- 'Camera'
 raju.mallikarjun.chegaraddi@intel.com:
 - 'IO'
 - 'Sensors'
@@ -71,12 +67,12 @@ taranpreet.kaur@intel.com:
 - 'Storage'
 tommi.von.hertzen@intel.com:
 - 'Widevine/DRM'
-vns.murthy.sristi@intel.com:
-- 'MultiCamera'
 yegnesh.s.iyer@intel.com:
 - 'Energy Management'
 yihan.he@intel.com:
 - 'Manifest'
+yipeng.yao@intel.com:
+- 'PnP'
 zachary.zou@intel.com:
 - 'CSE'
 - 'Security /Trusty'

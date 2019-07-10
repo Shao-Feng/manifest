@@ -1,7 +1,5 @@
 abhilash.k.v@intel.com:
 - 'USB'
-abhilash.kesavan@intel.com:
-- 'PnP'
 albert.tsang@intel.com:
 - 'BIOS'
 atul.vaish@intel.com:
@@ -45,6 +43,10 @@ johnson.lin@intel.com:
 - 'renderscript'
 kai.z.wang@intel.com:
 - 'Security /Trusty'
+karan.patidar@intel.com:
+- 'Audio'
+kumar.k.m@intel.com:
+- 'Audio'
 lang.li@intel.com:
 - 'Manifest'
 lin.z.chen@intel.com:
@@ -52,8 +54,6 @@ lin.z.chen@intel.com:
 luhai.chen@intel.com:
 - 'Android for Work'
 - 'Security /Trusty'
-madhusudhan.s@intel.com:
-- 'PnP'
 ming.tan@intel.com:
 - 'BOOT - OTA - GOTA'
 murali.mohan@intel.com:
@@ -64,9 +64,6 @@ peng.c.chen@intel.com:
 - 'Media'
 philippe.regnier@intel.com:
 - 'OTA Update'
-priya.shree@intel.com:
-- 'Audio'
-- 'Audio Comms'
 qiming.shi@intel.com:
 - 'AOSP'
 raju.mallikarjun.chegaraddi@intel.com:
@@ -76,8 +73,6 @@ roger.feng@intel.com:
 - 'Security /Trusty'
 saranya.gopal@intel.com:
 - 'USB'
-shiva.kumara.rudrappa@intel.com:
-- 'Camera'
 shyjumon.n@intel.com:
 - 'Storage'
 sundar.gnanasekaran@intel.com:
@@ -93,10 +88,9 @@ ting.a.ai@intel.com:
 tommi.von.hertzen@intel.com:
 - 'Widevine/DRM'
 vishwanath.somayaji@intel.com:
-- 'PnP'
 - 'Power management'
-vns.murthy.sristi@intel.com:
-- 'MultiCamera'
+xi.a.chen@intel.com:
+- 'PnP'
 xihua.chen@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'OTA Update'
@@ -107,6 +101,8 @@ yihan.he@intel.com:
 - 'Manifest'
 yinweix.wang@intel.com:
 - 'Manifest'
+yipeng.yao@intel.com:
+- 'PnP'
 zhenlong.z.ji@intel.com:
 - 'Android for Work'
 zhuangzhi.li@intel.com:
