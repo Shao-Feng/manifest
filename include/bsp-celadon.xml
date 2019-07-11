@@ -35,6 +35,7 @@
   <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="stable" />
   <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="stable" />
   <project name="libwifihal-intel" path="hardware/intel/wlan/libwifihal/open"  remote="github" revision="master" />
+  <project name="ittapi" path="vendor/intel/tools/ittapi" remote="github" revision="stable" />
 
   <!-- ikgt projects -->
   <project name="ikgt-core" path="vendor/intel/fw/evmm" remote="intel" revision="trusty"/>
