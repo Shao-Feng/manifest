@@ -1,22 +1,15 @@
 abhilash.k.v@intel.com:
 - 'USB'
-albert.tsang@intel.com:
-- 'BIOS'
+amit.kumar.sharma@intel.com:
+- 'Sensors'
+- 'USB'
 atul.vaish@intel.com:
 - 'Nn-hal'
 - 'Openvino'
-amit.kumar.sharma@intel.com:
-- 'IO'
-- 'Sensors'
-- 'Storage'
-- 'USB'
 baofeng.tian@intel.com:
 - 'Debug and Trace'
 bing.zhu@intel.com:
-- 'CSE'
 - 'Security /Trusty'
-cathy.bao@intel.com:
-- 'Storage'
 guangxin.xu@intel.com:
 - 'Media'
 hongcheng.xie@intel.com:
@@ -30,17 +23,11 @@ jenny.q.cao@intel.com:
 - 'Display'
 - 'Graphics'
 - 'HDCP High-bandwidth Digital Content Protection'
-- 'HDMI'
-- 'renderscript'
 ji.j.wu@intel.com:
 - 'BOOT - OTA - GOTA'
-jie.a.chen@intel.com:
-- 'Browser'
 johnson.lin@intel.com:
 - 'Display'
 - 'Graphics'
-- 'HDMI'
-- 'renderscript'
 kai.z.wang@intel.com:
 - 'Security /Trusty'
 karan.patidar@intel.com:
@@ -52,7 +39,6 @@ lang.li@intel.com:
 lin.z.chen@intel.com:
 - 'Platform Config'
 luhai.chen@intel.com:
-- 'Android for Work'
 - 'Security /Trusty'
 ming.tan@intel.com:
 - 'BOOT - OTA - GOTA'
@@ -62,48 +48,31 @@ pankaj.laxminarayan.bharadiya@intel.com:
 - 'Kernel'
 peng.c.chen@intel.com:
 - 'Media'
-philippe.regnier@intel.com:
-- 'OTA Update'
 qiming.shi@intel.com:
 - 'AOSP'
 raju.mallikarjun.chegaraddi@intel.com:
-- 'IO'
 - 'Sensors'
 roger.feng@intel.com:
 - 'Security /Trusty'
 saranya.gopal@intel.com:
 - 'USB'
-shyjumon.n@intel.com:
-- 'Storage'
 sundar.gnanasekaran@intel.com:
 - 'Platform Config'
 swaroop.balan@intel.com:
 - 'Platform Config'
 tao.w.wang@intel.com:
 - 'Manifest'
-taranpreet.kaur@intel.com:
-- 'Storage'
-ting.a.ai@intel.com:
-- 'Android for Work'
 tommi.von.hertzen@intel.com:
 - 'Widevine/DRM'
 vishwanath.somayaji@intel.com:
 - 'Power management'
-xi.a.chen@intel.com:
-- 'PnP'
 xihua.chen@intel.com:
 - 'BOOT - OTA - GOTA'
-- 'OTA Update'
 yegnesh.s.iyer@intel.com:
 - 'Energy Management'
-- 'Thermal'
 yihan.he@intel.com:
 - 'Manifest'
 yinweix.wang@intel.com:
 - 'Manifest'
-yipeng.yao@intel.com:
-- 'PnP'
-zhenlong.z.ji@intel.com:
-- 'Android for Work'
 zhuangzhi.li@intel.com:
 - 'Platform Config'
