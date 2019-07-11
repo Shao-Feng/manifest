@@ -5,9 +5,7 @@
   <project groups="pdk" name="a/aosp/platform/external/setupdesign" path="external/setupdesign"/>
   <project  groups="pdk" name="a/aosp/platform/prebuilts/bundletool" path="prebuilts/bundletool"/>
   <project groups="pdk" name="a/aosp/platform/system/libsysprop" path="system/libsysprop"/>
-  <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Car/Cluster" path="packages/apps/Car/Cluster"/>
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Car/LinkViewer" path="packages/apps/Car/LinkViewer"/>
-  <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Car/tests" path="packages/apps/Car/tests"/>
   <project groups="pdk" name="a/aosp/platform/external/apache-commons-compress" path="external/apache-commons-compress"/>
   <project groups="pdk,tradefed" name="a/aosp/platform/external/grpc-grpc-java" path="external/grpc-grpc-java"/>
   <project groups="pdk" name="a/aosp/platform/external/libutf" path="external/libutf"/>
@@ -15,7 +13,6 @@
   <project groups="pdk" name="a/aosp/platform/external/python/funcsigs" path="external/python/funcsigs"/>
   <project groups="pdk" name="a/aosp/platform/external/python/mock" path="external/python/mock"/>
   <project groups="pdk,tradefed" name="a/aosp/platform/external/grpc-grpc" path="external/grpc-grpc"/>
-  <project clone-depth="1" groups="pdk" name="a/aosp/platform/prebuilts/ktlint" path="prebuilts/ktlint"/>
   <project groups="pdk" name="a/aosp/platform/system/iorap" path="system/iorap"/>
   <project groups="pdk-cw-fs,pdk" name="a/aosp/device/common" path="device/common"/>
   <project groups="pdk" name="a/aosp/device/generic/arm64" path="device/generic/arm64"/>
@@ -416,7 +413,6 @@
   <project groups="qcom,pdk-qcom" name="a/aosp/platform/hardware/qcom/power" path="hardware/qcom/power" />
   <project groups="qcom_wlan,pdk-qcom" name="a/aosp/platform/hardware/qcom/wlan" path="hardware/qcom/wlan" />
   <project groups="pdk" name="a/aosp/platform/hardware/ril" path="hardware/ril" />
-  <project groups="pdk" name="a/aosp/platform/hardware/st/nfc" path="hardware/st/nfc" />
   <project groups="pdk" name="a/aosp/platform/hardware/ti/am57x" path="hardware/ti/am57x"/>
   <project groups="pdk" name="a/aosp/platform/libcore" path="libcore" />
   <project groups="pdk" name="a/aosp/platform/libnativehelper" path="libnativehelper" />
@@ -625,7 +621,6 @@
   <project groups="pdk-fs" name="a/aosp/platform/external/deqp-deps/SPIRV-Headers" path="external/deqp-deps/SPIRV-Headers"/>
   <project groups="pdk" name="a/aosp/platform/external/bcc" path="external/bcc"/>
   <project clone-depth="1" groups="pdk-fs" name="a/aosp/platform/prebuilts/fuchsia_sdk" path="prebuilts/fuchsia_sdk"/>
-  <project groups="pdk" name="a/aosp/platform/hardware/st/secure_element" path="hardware/st/secure_element"/>
   <project groups="pdk" name="a/aosp/platform/external/libaom" path="external/libaom"/>
 
   <project groups="pdk" name="a/aosp/platform/external/python/atomicwrites" path="external/python/atomicwrites"/>
@@ -675,7 +670,15 @@
 
   <project groups="pdk" name="a/aosp/platform/external/ukey2" path="external/ukey2"/>
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/SampleLocationAttribution" path="packages/apps/SampleLocationAttribution"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/packages/modules/CaptivePortalLogin" path="packages/modules/CaptivePortalLogin"/>
   <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/packages/modules/ExtServices" path="packages/modules/ExtServices"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/packages/modules/NetworkPermissionConfig" path="packages/modules/NetworkPermissionConfig"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="a/aosp/platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack"/>
+
+  <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Car/Cluster" path="packages/apps/Car/Cluster"/>
+  <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Car/tests" path="packages/apps/Car/tests"/>
+  <project clone-depth="1" groups="pdk" name="a/aosp/platform/prebuilts/ktlint" path="prebuilts/ktlint"/>
+
   <repo-hooks enabled-list="pre-upload" in-project="a/aosp/platform/tools/repohooks"/>
 </manifest>
 
