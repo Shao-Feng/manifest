@@ -38,6 +38,7 @@
   <include name="include/aosp_vanilla.xml" />
   <include name="include/aosp-priv.xml"/>
   <include name="include/bsp-celadon.xml" />
-  <include name="include/bsp-private-celadon.xml"/>
+  <include name="include/bsp-celadon-private.xml"/>
+  <include name="include/bsp-celadon-migration.xml"/>
 
 </manifest>
