@@ -14,7 +14,7 @@
   <project name="mainline-tracking" path="kernel/mainline-tracking" remote="intel" revision="master"/>
   <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces" remote="github" revision="stable"/>
   <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/project-celadon/audio_pfw/plugins/alsa" remote="github" revision="master" />
-  <project name="yjsun1/vendor-intel-utils" path="vendor/intel/utils" remote="github_all" revision="master" />
+  <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="migration" />
 
     <!-- From public kernel.org -->
   <project name="vendor-linux-firmware" path="vendor/linux/firmware" remote="github" revision="master" />
