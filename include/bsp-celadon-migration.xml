@@ -38,9 +38,6 @@
   <project path="hardware/intel/efiwrapper" name="a/bsp/vendor/intel/efiwrapper" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/external/drm-intel" name="a/bsp/vendor/intel/external/drm-intel" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
   <project path="hardware/intel/external/gnu-efi" name="a/bsp/platform/external/gnu-efi" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
@@ -54,12 +51,6 @@
         <annotation name="readonly" value="false"/>
   </project>
   <project path="hardware/intel/external/media/mod" name="a/bsp/hardware/intel/external/media/mod" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
-  <project path="hardware/intel/external/mesa3d-intel" name="a/bsp/vendor/intel/external/mesa3d" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
-  <project path="hardware/intel/external/minigbm-intel" name="a/bsp/vendor/intel/external/minigbm" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
   <project path="hardware/intel/external/safestringlib" name="a/bsp/hardware/intel/external/safestringlib" groups="bsp" revision="android/q/celadon/migration">
@@ -92,9 +83,6 @@
       <annotation name="readonly" value="false"/>
   </project>
   <project path="vendor/intel/external/hcitools-intel" name="a/bsp/platform/external/bluetooth/hcitools" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
-  <project path="vendor/intel/external/hwcomposer-intel" name="a/bsp/vendor/intel/external/hwcomposer" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
   <project path="vendor/intel/external/mediasdk_opensource" name="a/bsp/vendor/intel/external/mediasdk_opensource" groups="bsp" revision="android/q/celadon/migration">

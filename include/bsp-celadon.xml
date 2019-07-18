@@ -59,4 +59,12 @@
   <project name="trusty_target_sand" path="trusty/target/sand" remote="trusty-ia" revision="master"/>
 
 
+  <!-- gfx projects -->
+  <project name="external-libdrm" path="hardware/intel/external/drm-intel" remote="github" revision="stable" />
+  <project name="external-mesa" path="hardware/intel/external/mesa3d-intel" remote="github" revision="migration" >
+      <annotation name="readonly" value="false"/>
+  </project>
+  <project name="IA-Hardware-Composer" path="vendor/intel/external/hwcomposer-intel" remote="github" revision="master" />
+  <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="master" />
+
 </manifest>
