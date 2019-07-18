@@ -77,9 +77,6 @@
   <project path="hardware/intel/kernelflinger" name="a/bsp/hardware/intel/efi/kernelflinger" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/libbt-vendor-intel" name="a/bsp/wcs/vendor/intel/hardware/PRIVATE/bt/wcs/libbt" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
   <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
@@ -132,9 +129,6 @@
         <annotation name="readonly" value="false"/>
   </project>
   <project path="vendor/intel/external/hwcomposer-intel" name="a/bsp/vendor/intel/external/hwcomposer" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
-  <project path="vendor/intel/external/libbt-vendor-linux-intel" name="a/bsp/platform/external/bluetooth/libbt-vendor-linux" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
   <project path="vendor/intel/external/mediasdk_opensource" name="a/bsp/vendor/intel/external/mediasdk_opensource" groups="bsp" revision="android/q/celadon/migration">
