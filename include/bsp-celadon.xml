@@ -30,7 +30,7 @@
   <!-- Media vendor projects -->
   <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="stable" />
   <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="stable" />
-  <project name="gaohuadong/libwifihal-intel" path="hardware/intel/wlan/libwifihal/open"  remote="github_all" revision="master" />
+  <project name="libwifihal-intel" path="hardware/intel/wlan/libwifihal/open"  remote="github_huadong" revision="master" />
 
 
 </manifest>
