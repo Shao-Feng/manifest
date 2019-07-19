@@ -26,9 +26,6 @@
         <annotation name="bxt_rvp_external" value="no"/>
 	<annotation name="readonly" value="false"/>
     </project>
-  <project path="device/intel/sepolicy" name="a/bsp/device/intel/sepolicy" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
   <project path="external/thermal_daemon" name="a/bsp/platform/external/thermal_daemon" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
@@ -51,9 +48,6 @@
         <annotation name="readonly" value="false"/>
   </project>
   <project path="hardware/intel/external/media/mod" name="a/bsp/hardware/intel/external/media/mod" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
-  <project path="hardware/intel/external/safestringlib" name="a/bsp/hardware/intel/external/safestringlib" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
   <project path="hardware/intel/kernelflinger" name="a/bsp/hardware/intel/efi/kernelflinger" groups="bsp" revision="android/q/celadon/migration">
@@ -84,12 +78,6 @@
   </project>
   <project path="vendor/intel/external/mediasdk_opensource" name="a/bsp/vendor/intel/external/mediasdk_opensource" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
-  </project>
-  <project path="vendor/intel/hardware/storage" name="a/bsp/vendor/intel/hardware/storage" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
-      <annotation name="g_external" value="no"/>
-      <annotation name="all_external" value="no"/>
-      <annotation name="bxt_rvp_external" value="no"/>
-      <annotation name="readonly" value="false"/>
   </project>
   <project path="vendor/intel/libdmi" name="a/bsp/vendor/intel/libdmi" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>

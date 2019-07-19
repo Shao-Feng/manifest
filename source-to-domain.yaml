@@ -769,6 +769,7 @@
 'Sensors':
 - vendor/intel/external/project-celadon/lights
 'Security /Trusty':
+- device/intel/sepolicy
 - hardware/intel/external/safestringlib
 - trusty/app/avb
 - trusty/app/gatekeeper

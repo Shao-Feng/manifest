@@ -21,6 +21,10 @@
   <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="migration" >
       <annotation name="readonly" value="false"/>
   </project>
+  <project name="safestringlib" path="hardware/intel/external/safestringlib" remote="intel" revision="master"/>
+  <project name="device-intel-sepolicy" path="device/intel/sepolicy" remote="github" revision="master" >
+      <annotation name="readonly" value="false"/>
+  </project>
 
     <!-- From public kernel.org -->
   <project name="vendor-linux-firmware" path="vendor/linux/firmware" remote="github" revision="master" />
