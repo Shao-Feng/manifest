@@ -16,7 +16,10 @@
            fetch="https://github.com/projectceladon/" />
 
   <remote name="github_all"
-          fetch="ssh://github.com/" />
+          fetch="https://github.com/" />
+
+  <remote name="github_huadong"
+          fetch="https://github.com/gaohuadong/" />
 
   <remote name="kernelorg" fetch="https://git.kernel.org/" />
 
