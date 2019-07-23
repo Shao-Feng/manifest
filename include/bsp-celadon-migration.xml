@@ -94,31 +94,6 @@
   </project>
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-poky" name="a/bsp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-poky-1.8" groups="bsp" revision="android/master">
   </project>
-  <project path="trusty/app/sand" name="a/bsp/vendor/intel/fw/trusty_app_sand" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/migration">
-      <annotation name="g_external" value="no"/>
-      <annotation name="all_external" value="no"/>
-      <annotation name="bxt_rvp_external" value="no"/>
-      <annotation name="readonly" value="false"/>
-  </project>
-  <project path="trusty/device/x86/sand" name="a/bsp/vendor/intel/fw/trusty_device_x86_sand" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/migration">
-      <annotation name="g_external" value="no"/>
-      <annotation name="all_external" value="no"/>
-      <annotation name="bxt_rvp_external" value="no"/>
-      <annotation name="readonly" value="false"/>
-      <copyfile src="project/generate_prebuilt.sh" dest="trusty/generate_prebuilt.sh" />
-  </project>
-  <project path="trusty/platform/sand" name="a/bsp/vendor/intel/fw/trusty_lk_trusty_platform_sand" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/migration">
-      <annotation name="g_external" value="no"/>
-      <annotation name="all_external" value="no"/>
-      <annotation name="bxt_rvp_external" value="no"/>
-      <annotation name="readonly" value="false"/>
-  </project>
-  <project path="trusty/target/sand" name="a/bsp/vendor/intel/fw/trusty_lk_trusty_target_sand" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/migration">
-      <annotation name="g_external" value="no"/>
-      <annotation name="all_external" value="no"/>
-      <annotation name="bxt_rvp_external" value="no"/>
-      <annotation name="readonly" value="false"/>
-  </project>
   <project path="vendor/intel/art-extension" name="a/bsp/vendor/intel/PRIVATE/art-extension" groups="bsp-priv" revision="android/q/celadon/migration">
       <annotation name="g_external" value="bin"/>
       <annotation name="all_external" value="bin"/>
@@ -133,12 +108,6 @@
   </project>
   <project path="vendor/intel/external/mediasdk_opensource" name="a/bsp/vendor/intel/external/mediasdk_opensource" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
-  </project>
-  <project path="vendor/intel/fw/evmm" name="a/bsp/vendor/intel/fw/evmm" groups="bsp-priv,embargoed,trusty" revision="android/q/celadon/migration">
-      <annotation name="g_external" value="no"/>
-      <annotation name="all_external" value="no"/>
-      <annotation name="bxt_rvp_external" value="no"/>
-      <annotation name="readonly" value="false"/>
   </project>
   <project path="vendor/intel/hardware/PRIVATE/libmediaparser" name="a/bsp/vendor/intel/hardware/PRIVATE/libmediaparser" groups="bsp-priv" revision="android/q/celadon/migration">
       <annotation name="g_external" value="bin"/>

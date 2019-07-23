@@ -13,8 +13,9 @@
   <project name="mainline-tracking" path="kernel/mainline-tracking" remote="intel" revision="master"/>
   <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="stable"/>
   <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="intel" revision="master"/>
-  <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces" remote="github" revision="stable"/>
+  <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
   <project name="pciutils" path="vendor/intel/external/pciutils-intel" remote="github" revision="master" />
+  <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces" remote="github" revision="stable"/>
   <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/project-celadon/audio_pfw/plugins/alsa" remote="github" revision="master" />
   <project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="migration" >
       <annotation name="readonly" value="false"/>
@@ -23,18 +24,38 @@
     <!-- From public kernel.org -->
   <project name="vendor-linux-firmware" path="vendor/linux/firmware" remote="github" revision="master" />
 
-  <!-- trusty core projects -->
-  <project name="trusty_external_headers" path="trusty/external/headers" remote="trusty-ia" revision="master"/>
-  <project name="trusty_external_lk" path="trusty/external/lk"  remote="trusty-ia" revision="master">
-    <copyfile src="makefile" dest="trusty/makefile"/>
-  </project>
-  <project name="trusty_lk_trusty" path="trusty/lk/trusty" remote="trusty-ia" revision="master"/>
-
 
   <!-- Media vendor projects -->
   <project name="libbt-vendor-intel" path="hardware/intel/libbt-vendor-intel"  remote="github" revision="master" />
   <project name="libpciaccess" path="hardware/intel/external/libpciaccess" remote="github" revision="stable" />
   <project name="libstagefrighthw" path="vendor/intel/libstagefrighthw" remote="github" revision="stable" />
   <project name="libwifihal-intel" path="hardware/intel/wlan/libwifihal/open"  remote="github" revision="master" />
+
+  <!-- ikgt projects -->
+  <project name="ikgt-core" path="vendor/intel/fw/evmm" remote="intel" revision="trusty"/>
+
+  <!-- trusty core projects -->
+  <project name="trusty_external_headers" path="trusty/external/headers" remote="trusty-ia" revision="master"/>
+  <project name="trusty_external_lk" path="trusty/external/lk" remote="trusty-ia" revision="master">
+    <copyfile src="makefile" dest="trusty/makefile"/>
+  </project>
+  <project name="trusty_lk_trusty" path="trusty/lk/trusty" remote="trusty-ia" revision="master"/>
+  <project name="trusty_lib" path="trusty/lib" remote="trusty-ia" revision="master"/>
+  <project name="trusty_vendor_google_aosp" path="trusty/vendor/google/aosp" remote="trusty-ia" revision="master">
+    <copyfile src="lk_inc.mk" dest="trusty/lk_inc.mk"/>
+  </project>
+
+  <!-- trusty app projects -->
+  <project name="trusty_app_gatekeeper" path="trusty/app/gatekeeper" remote="trusty-ia" revision="master"/>
+  <project name="trusty_app_keymaster" path="trusty/app/keymaster" remote="trusty-ia" revision="master"/>
+  <project name="trusty_app_sample" path="trusty/app/sample" remote="trusty-ia" revision="master"/>
+  <project name="trusty_app_storage" path="trusty/app/storage" remote="trusty-ia" revision="master"/>
+
+  <!-- trusty bsp projects -->
+  <project name="trusty_app_sand" path="trusty/app/sand" remote="trusty-ia" revision="master"/>
+  <project name="trusty_device_x86_sand" path="trusty/device/x86/sand" remote="trusty-ia" revision="master"/>
+  <project name="trusty_platform_sand" path="trusty/platform/sand" remote="trusty-ia" revision="master"/>
+  <project name="trusty_target_sand" path="trusty/target/sand" remote="trusty-ia" revision="master"/>
+
 
 </manifest>
