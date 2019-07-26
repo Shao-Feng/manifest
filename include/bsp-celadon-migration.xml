@@ -41,9 +41,6 @@
   <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/usb" name="a/bsp/hardware/intel/usb" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
   <project path="kernel/config-lts/lts2018" name="a/bsp/kernel/config-lts-2018" groups="bsp,kernel-src,soc_bxt" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
