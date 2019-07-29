@@ -26,9 +26,6 @@
   <project path="hardware/intel/display/libmemtrack" name="a/bsp/hardware/intel/display/libmemtrack" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/external/gnu-efi" name="a/bsp/platform/external/gnu-efi" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
   <project path="hardware/intel/external/libva" name="a/bsp/hardware/intel/libva" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
