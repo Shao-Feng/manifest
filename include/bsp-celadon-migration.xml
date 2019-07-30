@@ -26,9 +26,6 @@
   <project path="hardware/intel/display/libmemtrack" name="a/bsp/hardware/intel/display/libmemtrack" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="hardware/intel/efiwrapper" name="a/bsp/vendor/intel/efiwrapper" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
   <project path="hardware/intel/external/gnu-efi" name="a/bsp/platform/external/gnu-efi" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
@@ -42,9 +39,6 @@
         <annotation name="readonly" value="false"/>
   </project>
   <project path="hardware/intel/external/media/mod" name="a/bsp/hardware/intel/external/media/mod" groups="bsp" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
-  <project path="hardware/intel/kernelflinger" name="a/bsp/hardware/intel/efi/kernelflinger" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
   <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" groups="bsp" revision="android/q/celadon/migration">
