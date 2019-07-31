@@ -758,6 +758,7 @@
 - vendor/intel/external/project-celadon/dldt
 - vendor/intel/external/project-celadon/ade
 'Platform Config':
+- device/intel/broxton
 - device/intel/common
 - device/intel/mixins
 - device/intel/project-celadon

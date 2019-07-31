@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project path="device/intel/broxton" name="a/bsp/device/intel/broxton" groups="bsp" revision="android/q/celadon/migration">
+      <annotation name="readonly" value="false"/>
+  </project>
   <project path="vendor/intel/external/hcitools-intel" name="a/bsp/platform/external/bluetooth/hcitools" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
