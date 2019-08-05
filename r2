@@ -39,7 +39,7 @@
            fetch="https://github.com/opencv" />
 
   <include name="include/aosp_vanilla.xml" />
-  <include name="include/bsp-celadon.xml" />
+  <include name="include/bsp-celadon-gerrit.xml" />
   <include name="include/bsp-celadon-private.xml"/>
   <include name="include/bsp-celadon-migration.xml"/>
 
