@@ -18,9 +18,6 @@
   <remote name="github_all"
           fetch="https://github.com/" />
 
-  <remote name="github_huadong"
-          fetch="https://github.com/gaohuadong/" />
-
   <remote name="kernelorg" fetch="https://git.kernel.org/" />
 
   <remote  name="graphics"

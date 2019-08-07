@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<project name="ade" path="vendor/intel/external/project-celadon/ade" remote="opencv" revision="master"/>
+<project name="a/bsp/vendor/intel/external/ade" path="vendor/intel/external/project-celadon/ade" revision="android/q/celadon/migration">
+    <annotation name="readonly" value="false"/>
+</project>
 <project path="bootable/liveinstaller" name="a/bsp/bootable/liveinstaller-android_ia" revision="android/q/celadon/migration">
     <annotation name="readonly" value="false"/>
 </project>
@@ -114,7 +116,9 @@
 <project path="vendor/intel/external/project-celadon/dldt" name="a/bsp/vendor/intel/external/ml/dldt" revision="android/q/celadon/migration">
     <annotation name="readonly" value="false"/>
 </project>
-<project name="lighthal" path="vendor/intel/external/project-celadon/lights" remote="github" revision="master"/>
+<project name="a/bsp/vendor/intel/external/lighthal" path="vendor/intel/external/project-celadon/lights" revision="android/q/celadon/migration">
+    <annotation name="readonly" value="false"/>
+</project>
 <project path="vendor/intel/external/project-celadon/nn-hal" name="a/bsp/vendor/intel/external/ml/nn-hal" revision="android/q/celadon/migration">
     <annotation name="readonly" value="false"/>
 </project>
@@ -130,10 +134,12 @@
 <project path="vendor/intel/tools/ittapi" name="a/bsp/vendor/intel/tools/ittapi" revision="android/q/celadon/migration">
     <annotation name="readonly" value="false"/>
 </project>
-<project name="vendor-intel-utils" path="vendor/intel/utils" remote="github" revision="migration" >
+<project name="a/bsp/vendor/intel/external/utils" path="vendor/intel/utils" revision="android/q/celadon/migration" >
     <annotation name="readonly" value="false"/>
 </project>
-<project name="vendor-linux-firmware" path="vendor/linux/firmware" remote="github" revision="master" />
+<project name="a/bsp/vendor/linux/firmware" path="vendor/linux/firmware" revision="android/q/celadon/migration" >
+    <annotation name="readonly" value="false"/>
+</project>
 
 
 </manifest>
