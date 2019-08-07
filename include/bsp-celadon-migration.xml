@@ -44,11 +44,6 @@
   <project path="hardware/intel/power" name="a/bsp/platform/vendor/intel/libpower" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="kernel/lts2018" name="a/bsp/kernel/lts2018" groups="bsp,kernel-src" revision="android/q/celadon/migration">
-        <annotation name="readonly" value="false"/>
-  </project>
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-poky" name="a/bsp/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-poky-1.8" groups="bsp" revision="android/master">
-  </project>
   <project path="vendor/intel/art-extension" name="a/bsp/vendor/intel/PRIVATE/art-extension" groups="bsp-priv" revision="android/q/celadon/migration">
       <annotation name="g_external" value="bin"/>
       <annotation name="all_external" value="bin"/>

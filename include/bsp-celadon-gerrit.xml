@@ -137,6 +137,7 @@
 <project name="a/bsp/vendor/linux/firmware" path="vendor/linux/firmware" revision="android/q/celadon/migration" >
     <annotation name="readonly" value="false"/>
 </project>
-
-
+<project name="a/bsp/kernel/lts2018" path="kernel/lts2018" groups="bsp,kernel-src" revision="abt/sandbox/taowan1/CACTUS-15970">
+    <annotation name="readonly" value="false"/>
+</project>
 </manifest>
