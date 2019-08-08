@@ -724,6 +724,7 @@
 - vendor/intel/libdmi
 - vendor/intel/pstore-clean
 - vendor/intel/tools/log_capture
+- vendor/intel/tools/log_capture_priv
 - vendor/intel/tools/log_infra
 - vendor/intel/tools/peeknpoke-intel
 'Display':

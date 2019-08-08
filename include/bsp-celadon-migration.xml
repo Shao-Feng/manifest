@@ -76,6 +76,9 @@
   <project path="vendor/intel/pstore-clean" name="a/bsp/hardware/intel/pstore-clean" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
+  <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture" revision="android/q/celadon/migration">
+        <annotation name="readonly" value="false"/>
+  </project>
   <project path="vendor/intel/utils_priv" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>

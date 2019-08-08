@@ -12,7 +12,7 @@
       <annotation name="bxt_rvp_external" value="bin"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture" spsId="59066" revision="android/q/celadon/migration">
+  <project path="vendor/intel/tools/log_capture_priv" name="a/bsp/device/intel/log_capture_priv" spsId="59066" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
   <project path="vendor/intel/tools/log_infra" name="a/bsp/device/intel/log_infra" groups="bsp-priv,embargoed" spsId="59067" revision="android/q/celadon/migration">
