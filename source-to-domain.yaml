@@ -732,6 +732,7 @@
 - vendor/intel/external/hwcomposer-intel
 'Energy Management':
 - external/thermal_daemon
+- vendor/intel/external/project-celadon/lights
 'Graphics':
 - external/minigbm
 - hardware/intel/external/mdapi
@@ -767,8 +768,6 @@
 - vendor/intel/utils
 'Power management':
 - hardware/intel/power
-'Sensors':
-- vendor/intel/external/project-celadon/lights
 'Security /Trusty':
 - device/intel/sepolicy
 - hardware/intel/external/safestringlib

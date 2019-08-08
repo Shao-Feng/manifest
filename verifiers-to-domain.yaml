@@ -1,7 +1,6 @@
 abhilash.k.v@intel.com:
 - 'USB'
 amit.kumar.sharma@intel.com:
-- 'Sensors'
 - 'USB'
 atul.vaish@intel.com:
 - 'Nn-hal'
@@ -50,8 +49,6 @@ peng.c.chen@intel.com:
 - 'Media'
 qiming.shi@intel.com:
 - 'AOSP'
-raju.mallikarjun.chegaraddi@intel.com:
-- 'Sensors'
 roger.feng@intel.com:
 - 'Security /Trusty'
 saranya.gopal@intel.com:
@@ -68,11 +65,11 @@ vishwanath.somayaji@intel.com:
 - 'Power management'
 xihua.chen@intel.com:
 - 'BOOT - OTA - GOTA'
-yegnesh.s.iyer@intel.com:
-- 'Energy Management'
 yihan.he@intel.com:
 - 'Manifest'
 yinweix.wang@intel.com:
 - 'Manifest'
+zhen.han@intel.com:
+- 'Energy Management'
 zhuangzhi.li@intel.com:
 - 'Platform Config'

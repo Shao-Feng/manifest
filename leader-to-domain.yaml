@@ -3,7 +3,6 @@ abhilash.kesavan@intel.com:
 abhilash.k.v@intel.com:
 - 'USB'
 amit.kumar.sharma@intel.com:
-- 'Sensors'
 - 'USB'
 atul.vaish@intel.com:
 - 'Nn-hal'
@@ -34,8 +33,6 @@ pankaj.laxminarayan.bharadiya@intel.com:
 - 'Kernel'
 qihua.zhuang@intel.com:
 - 'BOOT - OTA - GOTA'
-raju.mallikarjun.chegaraddi@intel.com:
-- 'Sensors'
 randy.xu@intel.com:
 - 'AOSP'
 roger.feng@intel.com:
@@ -46,11 +43,11 @@ tao.w.wang@intel.com:
 - 'Manifest'
 tommi.von.hertzen@intel.com:
 - 'Widevine/DRM'
-yegnesh.s.iyer@intel.com:
-- 'Energy Management'
 yihan.he@intel.com:
 - 'Manifest'
 zachary.zou@intel.com:
 - 'Security /Trusty'
+zhen.han@intel.com:
+- 'Energy Management'
 zhuangzhi.li@intel.com:
 - 'Platform Config'
