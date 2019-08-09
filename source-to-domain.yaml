@@ -707,7 +707,6 @@
 - bootable/userfastboot
 - device/intel/build
 - hardware/intel/bootctrl
-- hardware/intel/efiwrapper
 - hardware/intel/external/gnu-efi
 - hardware/intel/kernelflinger
 - vendor/intel/external/openssl
@@ -792,5 +791,3 @@
 - vendor/intel/hardware/storage
 'USB':
 - hardware/intel/usb
-'Widevine/DRM':
-- vendor/widevine

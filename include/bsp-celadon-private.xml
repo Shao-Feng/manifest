@@ -37,8 +37,4 @@
         <annotation name="readonly" value="false"/>
   </project>
 
- <project path="vendor/widevine" name="a/aosp/platform/vendor/widevine" groups="embargoed,osna" revision="android/q/celadon/migration">
-       <annotation name="readonly" value="false"/>
-  </project>
-
 </manifest>
