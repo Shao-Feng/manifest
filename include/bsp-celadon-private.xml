@@ -39,5 +39,12 @@
   <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="3" spsId="59122" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
+  <project path="vendor/intel/utils_priv" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
+      <annotation name="g_external" value="no"/>
+      <annotation name="all_external" value="no"/>
+      <annotation name="bxt_rvp_external" value="no"/>
+      <annotation name="readonly" value="false"/>
+  </project>
+
 
 </manifest>
