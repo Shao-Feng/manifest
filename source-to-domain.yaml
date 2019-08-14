@@ -740,7 +740,6 @@
 'HDCP High-bandwidth Digital Content Protection':
 - hardware/intel/external/media/hdcp
 'Kernel':
-- kernel/config-lts/lts2018
 - kernel/config-mainline-tracking
 - kernel/lts2018
 - kernel/mainline-tracking
@@ -763,7 +762,6 @@
 - device/intel/common
 - device/intel/mixins
 - device/intel/project-celadon
-- external/pystache
 - prebuilts/gcc/linux-x86/x86/x86_64-linux-poky
 - vendor/intel/utils
 'Power management':

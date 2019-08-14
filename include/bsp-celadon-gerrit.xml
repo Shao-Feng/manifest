@@ -12,9 +12,6 @@
 <project path="device/intel/sepolicy" name="a/bsp/device/intel/sepolicy-android_ia" revision="android/q/celadon/migration">
     <annotation name="readonly" value="false"/>
 </project>
-<project path="external/pystache" name="a/bsp/platform/external/pystache" revision="android/q/celadon/migration">
-    <annotation name="readonly" value="false"/>
-</project>
 <project path="hardware/intel/bootctrl" name="a/bsp/hardware/intel/bootctrl" revision="android/q/celadon/migration">
     <annotation name="readonly" value="false"/>
 </project>

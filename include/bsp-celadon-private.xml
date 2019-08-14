@@ -3,6 +3,9 @@
   <project path="device/intel/broxton" name="a/bsp/device/intel/broxton" groups="bsp" revision="android/q/celadon/migration">
       <annotation name="readonly" value="false"/>
   </project>
+  <project path="kernel/config-mainline-tracking"  name="a/bsp/kernel/config-mainline-tracking" groups="bsp,kernel-src" revision="android/q/celadon/migration">
+        <annotation name="readonly" value="false"/>
+  </project>
   <project path="vendor/intel/external/hcitools-intel" name="a/bsp/platform/external/bluetooth/hcitools" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>
