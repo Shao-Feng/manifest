@@ -628,7 +628,6 @@
   <project groups="pdk" name="a/aosp/platform/external/adeb" path="external/adeb"/>
 
 
-  <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Car/Stream" path="packages/apps/Car/Stream"/>
   <project groups="pdk" name="a/aosp/platform/external/google-fonts/lato" path="external/google-fonts/lato"/>
   <project groups="pdk" name="a/aosp/platform/external/google-fonts/arvo" path="external/google-fonts/arvo"/>
 
@@ -643,7 +642,6 @@
   <project groups="pdk" name="a/aosp/platform/external/google-fonts/source-sans-pro" path="external/google-fonts/source-sans-pro"/>
   <project groups="vts,pdk" name="a/aosp/platform/external/python/pyasn1-modules" path="external/python/pyasn1-modules"/>
   <project groups="pdk" name="a/aosp/platform/external/xz-java" path="external/xz-java"/>
-  <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Car/Overview" path="packages/apps/Car/Overview"/>
   <project groups="pdk" name="a/aosp/platform/external/google-fonts/rubik" path="external/google-fonts/rubik"/>
   <project groups="pdk" name="a/aosp/platform/external/python/attrs" path="external/python/attrs"/>
   <project clone-depth="1" groups="pdk" name="a/aosp/platform/external/subsampling-scale-image-view" path="external/subsampling-scale-image-view"/>
