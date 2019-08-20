@@ -31,11 +31,15 @@
 - device/generic/x86_64
 - device/google/atv
 - device/google/contexthub
+- device/google/crosshatch-kernel
+- device/google/crosshatch-sepolicy
 - device/google/cuttlefish
 - device/google/cuttlefish_common
 - device/google/cuttlefish_kernel
 - device/google/cuttlefish_vmm
+- device/google/muskie
 - device/google/vrservices
+- device/google/wahoo-kernel
 - device/linaro/hikey
 - device/linaro/hikey-kernel
 - device/linaro/poplar
@@ -456,6 +460,7 @@
 - hardware/qcom/msm8x27
 - hardware/qcom/msm8x84
 - hardware/qcom/power
+- hardware/qcom/sdm845/vr
 - hardware/qcom/wlan
 - hardware/ril
 - hardware/ti/am57x

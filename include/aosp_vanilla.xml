@@ -678,6 +678,11 @@
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Car/Cluster" path="packages/apps/Car/Cluster"/>
   <project groups="pdk-fs" name="a/aosp/platform/packages/apps/Car/tests" path="packages/apps/Car/tests"/>
   <project clone-depth="1" groups="pdk" name="a/aosp/platform/prebuilts/ktlint" path="prebuilts/ktlint"/>
+  <project clone-depth="1" groups="device,crosshatch,generic_fs" name="a/aosp/device/google/crosshatch-kernel" path="device/google/crosshatch-kernel"/>
+  <project groups="device,crosshatch,generic_fs" name="a/aosp/device/google/crosshatch-sepolicy" path="device/google/crosshatch-sepolicy"/>
+  <project clone-depth="1" groups="device,generic_fs,wahoo" name="a/aosp/device/google/wahoo-kernel" path="device/google/wahoo-kernel"/>
+  <project groups="device,generic_fs,muskie" name="a/aosp/device/google/muskie" path="device/google/muskie"/>
+  <project groups="generic_fs,qcom_sdm845" name="a/aosp/platform/hardware/qcom/sdm845/vr" path="hardware/qcom/sdm845/vr"/>
 
   <repo-hooks enabled-list="pre-upload" in-project="a/aosp/platform/tools/repohooks"/>
 </manifest>
