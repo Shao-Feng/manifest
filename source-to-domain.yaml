@@ -698,8 +698,6 @@
 - vendor/google_vts
 - vendor/google/gas
 - vendor/google/gms
-'ART':
-- vendor/intel/art-extension
 'MultiCamera':
 - vendor/intel/external/apps
 'Audio':
