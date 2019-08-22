@@ -698,6 +698,8 @@
 - vendor/google_vts
 - vendor/google/gas
 - vendor/google/gms
+- vendor/intel/utils/aosp_diff
+- vendor/intel/utils_priv/aosp_diff
 'MultiCamera':
 - vendor/intel/external/apps
 'Audio':
