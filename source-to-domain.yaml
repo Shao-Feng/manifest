@@ -1,3 +1,5 @@
+'AAF':
+- vendor/intel/external/project-celadon/aaf
 'AOSP':
 - art
 - bionic
