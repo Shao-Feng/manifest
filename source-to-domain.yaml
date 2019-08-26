@@ -707,11 +707,9 @@
 'Audio':
 - vendor/intel/external/project-celadon/audio
 - vendor/intel/external/project-celadon/audio_pfw/hal
-- vendor/intel/external/project-celadon/audio_pfw/plugins/alsa
 - vendor/intel/external/project-celadon/audio_pfw/utilities
 'BOOT - OTA - GOTA':
 - bootable/liveinstaller
-- bootable/userfastboot
 - device/intel/build
 - hardware/intel/bootctrl
 - hardware/intel/external/gnu-efi
@@ -720,7 +718,6 @@
 'Connectivity-Wifi':
 - hardware/intel/wlan/libwifihal/open
 - vendor/linux/firmware
-- vendor/intel/external/libbt-vendor-linux-intel
 - vendor/intel/hardware/interfaces
 'Connectivity-Bluetooth':
 - hardware/intel/libbt-vendor-intel
@@ -754,10 +751,13 @@
 - manifests
 'Media':
 - hardware/intel/external/libpciaccess
+- hardware/intel/external/libva
 - hardware/intel/external/media/gmmlib
 - hardware/intel/external/media/mod
 - vendor/intel/external/mediasdk_opensource
+- vendor/intel/hardware/PRIVATE/libmediaparser
 - vendor/intel/libstagefrighthw
+- vendor/intel/mediasdk_release
 - vendor/intel/tools/ittapi
 'Nn-hal':
 - vendor/intel/external/project-celadon/nn-hal
@@ -769,14 +769,13 @@
 - device/intel/common
 - device/intel/mixins
 - device/intel/project-celadon
-- prebuilts/gcc/linux-x86/x86/x86_64-linux-poky
 - vendor/intel/utils
+- vendor/intel/utils_priv
 'Power management':
 - hardware/intel/power
 'Security /Trusty':
 - device/intel/sepolicy
 - hardware/intel/external/safestringlib
-- trusty/app/avb
 - trusty/app/gatekeeper
 - trusty/app/keymaster
 - trusty/app/sample
@@ -785,7 +784,6 @@
 - trusty/device/x86/sand
 - trusty/external/headers
 - trusty/external/lk
-- trusty/external/qemu
 - trusty/lib
 - trusty/lk/trusty
 - trusty/platform/sand
@@ -793,6 +791,5 @@
 - trusty/vendor/google/aosp
 - vendor/intel/fw/evmm
 - vendor/intel/fw/evmm/ikgt
-- vendor/intel/hardware/storage
 'USB':
 - hardware/intel/usb
