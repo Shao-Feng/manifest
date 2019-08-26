@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project path="device/intel/aic" name="a/bsp/device/intel/aic" groups="bsp" revision="android/q/celadon/migration">
+      <annotation name="readonly" value="false"/>
+  </project>
   <project path="device/intel/broxton" name="a/bsp/device/intel/broxton" groups="bsp" revision="android/q/celadon/migration">
       <annotation name="readonly" value="false"/>
   </project>
   <project path="kernel/config-mainline-tracking"  name="a/bsp/kernel/config-mainline-tracking" groups="bsp,kernel-src" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
+  </project>
+  <project path="kernel/modules/intel_android_in_container" name="a/bsp/kernel/modules/intel_android_in_container" groups="bsp" revision="android/q/celadon/migration">
+      <annotation name="readonly" value="false"/>
+  </project>
+  <project path="vendor/intel/android_container" name="a/bsp/hardware/intel/android_container" groups="bsp" revision="android/q/celadon/migration">
+      <annotation name="readonly" value="false"/>
   </project>
   <project path="vendor/intel/external/hcitools-intel" name="a/bsp/platform/external/bluetooth/hcitools" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
