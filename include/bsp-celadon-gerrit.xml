@@ -113,9 +113,6 @@
 <project path="vendor/intel/external/project-celadon/dldt" name="a/bsp/vendor/intel/external/ml/dldt" revision="android/q/celadon/migration">
     <annotation name="readonly" value="false"/>
 </project>
-<project name="a/bsp/vendor/intel/external/lighthal" path="vendor/intel/external/project-celadon/lights" revision="android/q/celadon/migration">
-    <annotation name="readonly" value="false"/>
-</project>
 <project path="vendor/intel/external/project-celadon/nn-hal" name="a/bsp/vendor/intel/external/ml/nn-hal" revision="android/q/celadon/migration">
     <annotation name="readonly" value="false"/>
 </project>

@@ -13,7 +13,6 @@
   <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="master" >
       <annotation name="readonly" value="false"/>
   </project>
-  <project name="lighthal" path="vendor/intel/external/project-celadon/lights" remote="github" revision="master"/>
   <project name="mainline-tracking" path="kernel/mainline-tracking" remote="intel" revision="master"/>
   <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="stable"/>
   <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="intel" revision="master"/>

@@ -24,6 +24,9 @@
       <annotation name="bxt_rvp_external" value="bin"/>
       <annotation name="readonly" value="false"/>
   </project>
+  <project path="vendor/intel/external/project-celadon/lights" name="a/bsp/vendor/intel/external/lighthal" revision="android/q/celadon/migration">
+    <annotation name="readonly" value="false"/>
+  </project>
   <project path="vendor/intel/hardware/PRIVATE/libmediaparser" name="a/bsp/vendor/intel/hardware/PRIVATE/libmediaparser" groups="bsp-priv" revision="android/q/celadon/migration">
       <annotation name="g_external" value="bin"/>
       <annotation name="all_external" value="bin"/>
