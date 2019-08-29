@@ -128,6 +128,18 @@
 <project path="vendor/intel/tools/ittapi" name="a/bsp/vendor/intel/tools/ittapi" revision="android/q/celadon/migration">
     <annotation name="readonly" value="false"/>
 </project>
+<project path="vendor/intel/tools/log_infra" name="a/bsp/device/intel/log_infra" groups="bsp-priv,embargoed" spsId="59067" revision="android/q/celadon/migration">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+    <annotation name="readonly" value="false"/>
+</project>
+<project path="vendor/intel/tools/peeknpoke-intel" name="a/bsp/vendor/intel/tools/peeknpoke" groups="bsp-priv,embargoed" revision="android/q/celadon/migration">
+    <annotation name="g_external" value="no"/>
+    <annotation name="all_external" value="no"/>
+    <annotation name="bxt_rvp_external" value="no"/>
+    <annotation name="readonly" value="false"/>
+</project>
 <project name="a/bsp/vendor/intel/external/utils" path="vendor/intel/utils" revision="android/q/celadon/migration" >
     <annotation name="readonly" value="false"/>
 </project>

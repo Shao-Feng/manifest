@@ -13,11 +13,17 @@
   <project name="hardware-intel-usb" path="hardware/intel/usb" remote="github" revision="master" >
       <annotation name="readonly" value="false"/>
   </project>
+  <project name="log_infra" path="vendor/intel/tools/log_infra" remote="github" revision="master" >
+      <annotation name="readonly" value="false"/>
+  </project>
   <project name="mainline-tracking" path="kernel/mainline-tracking" remote="intel" revision="master"/>
   <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="stable"/>
   <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="intel" revision="master"/>
   <project name="OpenSSL" path="vendor/intel/external/openssl" remote="github" revision="master"/>
   <project name="pciutils" path="vendor/intel/external/pciutils-intel" remote="github" revision="master" />
+  <project name="peeknpoke" path="vendor/intel/tools/peeknpoke-intel" remote="github" revision="master" >
+      <annotation name="readonly" value="false"/>
+  </project>
   <project name="vendor-hardware-interfaces" path="vendor/intel/hardware/interfaces" remote="github" revision="stable"/>
   <project name="vendor_intel_hardware_audiocomms_parameter-framework_plugins_alsa" path="vendor/intel/external/project-celadon/audio_pfw/plugins/alsa" remote="github" revision="master" />
   <project name="device-androidia-mixins" path="device/intel/mixins" remote="github" revision="migration" >
