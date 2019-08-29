@@ -15,6 +15,9 @@
   <project path="vendor/intel/android_container" name="a/bsp/hardware/intel/android_container" groups="bsp" revision="android/q/celadon/migration">
       <annotation name="readonly" value="false"/>
   </project>
+  <project path="vendor/intel/apps/fota" name="a/bsp/vendor/intel/apps/fota" groups="bsp" revision="android/q/celadon/migration">
+      <annotation name="readonly" value="false"/>
+  </project>
   <project path="vendor/intel/external/hcitools-intel" name="a/bsp/platform/external/bluetooth/hcitools" groups="bsp" revision="android/q/celadon/migration">
         <annotation name="readonly" value="false"/>
   </project>

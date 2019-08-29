@@ -488,10 +488,8 @@
 - packages/apps/Car/Media
 - packages/apps/Car/Messenger
 - packages/apps/Car/Notification
-- packages/apps/Car/Overview
 - packages/apps/Car/Radio
 - packages/apps/Car/Settings
-- packages/apps/Car/Stream
 - packages/apps/Car/SystemUpdater
 - packages/apps/Car/libs
 - packages/apps/Car/tests
@@ -705,8 +703,6 @@
 - vendor/intel/android_container
 - vendor/intel/utils/aosp_diff
 - vendor/intel/utils_priv/aosp_diff
-'MultiCamera':
-- vendor/intel/external/apps
 'Audio':
 - vendor/intel/external/project-celadon/audio
 - vendor/intel/external/project-celadon/audio_pfw/hal
@@ -717,6 +713,7 @@
 - hardware/intel/bootctrl
 - hardware/intel/external/gnu-efi
 - hardware/intel/kernelflinger
+- vendor/intel/apps/fota
 - vendor/intel/external/openssl
 'Connectivity-Wifi':
 - hardware/intel/wlan/libwifihal/open
@@ -762,6 +759,8 @@
 - vendor/intel/libstagefrighthw
 - vendor/intel/mediasdk_release
 - vendor/intel/tools/ittapi
+'MultiCamera':
+- vendor/intel/external/apps
 'Nn-hal':
 - vendor/intel/external/project-celadon/nn-hal
 'Openvino':
