@@ -9,10 +9,10 @@ baofeng.tian@intel.com:
 - 'Debug and Trace'
 bing.zhu@intel.com:
 - 'Security /Trusty'
-guangxin.xu@intel.com:
-- 'Media'
 hongcheng.xie@intel.com:
 - 'AOSP'
+hongfu.ruan@intel.com:
+- 'Media'
 hongyu.zhang@intel.com:
 - 'AOSP'
 jeevaka.badrappan@intel.com:
@@ -49,8 +49,6 @@ ming.tan@intel.com:
 - 'BOOT - OTA - GOTA'
 pankaj.laxminarayan.bharadiya@intel.com:
 - 'Kernel'
-peng.c.chen@intel.com:
-- 'Media'
 qiming.shi@intel.com:
 - 'AOSP'
 roger.feng@intel.com:
@@ -59,6 +57,8 @@ saranya.gopal@intel.com:
 - 'USB'
 tao.w.wang@intel.com:
 - 'Manifest'
+tianmi.chen@intel.com:
+- 'Media'
 vishwanath.somayaji@intel.com:
 - 'Power management'
 xiaojing.liu@intel.com:
