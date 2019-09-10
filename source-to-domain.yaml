@@ -759,8 +759,6 @@
 - vendor/intel/libstagefrighthw
 - vendor/intel/mediasdk_release
 - vendor/intel/tools/ittapi
-'MultiCamera':
-- vendor/intel/external/apps
 'Nn-hal':
 - vendor/intel/external/project-celadon/nn-hal
 'Openvino':
