@@ -43,6 +43,7 @@
 - device/google/vrservices
 - device/google/wahoo-kernel
 - device/intel/aic
+- device/intel/cic
 - device/linaro/hikey
 - device/linaro/hikey-kernel
 - device/linaro/poplar
@@ -468,6 +469,7 @@
 - hardware/ril
 - hardware/ti/am57x
 - kernel/configs
+- kernel/modules/cic
 - kernel/modules/intel_android_in_container
 - kernel/tests
 - libcore
@@ -701,6 +703,7 @@
 - vendor/google/gas
 - vendor/google/gms
 - vendor/intel/android_container
+- vendor/intel/cic
 - vendor/intel/utils/aosp_diff
 - vendor/intel/utils_priv/aosp_diff
 'Audio':
