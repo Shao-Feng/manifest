@@ -718,6 +718,8 @@
 - hardware/intel/kernelflinger
 - vendor/intel/apps/fota
 - vendor/intel/external/openssl
+'Camera':
+- vendor/intel/external/apps
 'Connectivity-Wifi':
 - hardware/intel/wlan/libwifihal/open
 - vendor/linux/firmware
