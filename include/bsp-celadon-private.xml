@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/intel/broxton" name="a/bsp/device/intel/broxton" groups="bsp" remote="origin" revision="android/celadon">
-      <annotation name="readonly" value="false"/>
-  </project>
   <project path="kernel/config-mainline-tracking"  name="a/bsp/kernel/config-mainline-tracking" groups="bsp,kernel-src" remote="origin" revision="android/celadon">
         <annotation name="readonly" value="false"/>
   </project>
