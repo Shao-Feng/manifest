@@ -826,6 +826,9 @@
 - external/minigbm
 - hardware/intel/external/mdapi
 - hardware/intel/external/mesa3d-intel
+- hardware/intel/external/opencl/compute-runtime
+- hardware/intel/external/opencl/intel-graphics-compiler
+- hardware/intel/external/opencl/opencl-icd-loader
 'HDCP High-bandwidth Digital Content Protection':
 - hardware/intel/external/media/hdcp
 'Kernel':
