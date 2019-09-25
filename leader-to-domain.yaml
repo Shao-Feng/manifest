@@ -9,8 +9,6 @@ atul.vaish@intel.com:
 - 'Openvino'
 baofeng.tian@intel.com:
 - 'Debug and Trace'
-di.zhang@intel.com:
-- 'AAF'
 dong.yang@intel.com:
 - 'Camera'
 hongfu.ruan@intel.com:
@@ -23,6 +21,10 @@ jeevaka.badrappan@intel.com:
 - 'Connectivity-Wifi'
 jenny.q.cao@intel.com:
 - 'HDCP High-bandwidth Digital Content Protection'
+jie.a.bai@intel.com:
+- 'Mixins'
+jin.xiao@intel.com:
+- 'AAF'
 johnson.lin@intel.com:
 - 'Display'
 - 'Graphics'
@@ -48,10 +50,13 @@ tianmi.chen@intel.com:
 - 'Media'
 yihan.he@intel.com:
 - 'Manifest'
+yi.j.sun@intel.com:
+- 'Platform Config'
 zachary.zou@intel.com:
 - 'Security /Trusty'
 zhen.han@intel.com:
 - 'Energy Management'
 zhuangzhi.li@intel.com:
 - 'AAF'
+- 'Mixins'
 - 'Platform Config'

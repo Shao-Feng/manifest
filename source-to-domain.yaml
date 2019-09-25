@@ -847,6 +847,8 @@
 - vendor/intel/libstagefrighthw
 - vendor/intel/mediasdk_release
 - vendor/intel/tools/ittapi
+'Mixins':
+- device/intel/mixins
 'Nn-hal':
 - vendor/intel/external/project-celadon/nn-hal
 'Openvino':
@@ -854,7 +856,6 @@
 - vendor/intel/external/project-celadon/ade
 'Platform Config':
 - device/intel/common
-- device/intel/mixins
 - device/intel/project-celadon
 - vendor/intel/utils
 - vendor/intel/utils_priv

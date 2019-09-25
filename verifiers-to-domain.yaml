@@ -23,9 +23,10 @@ jenny.q.cao@intel.com:
 - 'HDCP High-bandwidth Digital Content Protection'
 ji.j.wu@intel.com:
 - 'BOOT - OTA - GOTA'
+jie.a.bai@intel.com:
+- 'Mixins'
 jin.xiao@intel.com:
 - 'AAF'
-- 'Platform Config'
 johnson.lin@intel.com:
 - 'Display'
 - 'Graphics'
@@ -39,6 +40,7 @@ lang.li@intel.com:
 - 'Manifest'
 lin.z.chen@intel.com:
 - 'AAF'
+- 'Mixins'
 - 'Platform Config'
 luhai.chen@intel.com:
 - 'Security /Trusty'
@@ -61,6 +63,7 @@ xiaojing.liu@intel.com:
 xihua.chen@intel.com:
 - 'BOOT - OTA - GOTA'
 yi.j.sun@intel.com:
+- 'Mixins'
 - 'Platform Config'
 yihan.he@intel.com:
 - 'Manifest'
@@ -68,5 +71,9 @@ yinweix.wang@intel.com:
 - 'Manifest'
 zhen.han@intel.com:
 - 'Energy Management'
+zhonghua.sun@intel.com:
+- 'Platform Config'
 zhuangzhi.li@intel.com:
+- 'AAF'
+- 'Mixins'
 - 'Platform Config'
