@@ -862,6 +862,7 @@
 - vendor/intel/utils_priv
 'Power management':
 - hardware/intel/power
+- vendor/intel/external/s2diskus
 'Security /Trusty':
 - device/intel/sepolicy
 - hardware/intel/external/safestringlib

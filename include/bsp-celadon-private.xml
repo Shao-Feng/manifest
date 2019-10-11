@@ -18,6 +18,12 @@
   <project path="vendor/intel/external/project-celadon/lights" name="a/bsp/vendor/intel/external/lighthal" remote="origin" revision="android/celadon">
     <annotation name="readonly" value="false"/>
   </project>
+  <project path="vendor/intel/external/s2diskus" name="a/bsp/vendor/intel/external/s2diskus" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon">
+      <annotation name="g_external" value="bin"/>
+      <annotation name="all_external" value="bin"/>
+      <annotation name="bxt_rvp_external" value="bin"/>
+      <annotation name="readonly" value="false"/>
+  </project>
   <project path="vendor/intel/hardware/PRIVATE/libmediaparser" name="a/bsp/vendor/intel/hardware/PRIVATE/libmediaparser" groups="bsp-priv" remote="origin" revision="android/celadon">
       <annotation name="g_external" value="bin"/>
       <annotation name="all_external" value="bin"/>
