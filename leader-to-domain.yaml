@@ -25,9 +25,6 @@ jie.a.bai@intel.com:
 - 'Mixins'
 jin.xiao@intel.com:
 - 'AAF'
-johnson.lin@intel.com:
-- 'Display'
-- 'Graphics'
 karan.patidar@intel.com:
 - 'Audio'
 kumar.k.m@intel.com:
@@ -52,6 +49,9 @@ yihan.he@intel.com:
 - 'Manifest'
 yi.j.sun@intel.com:
 - 'Platform Config'
+yuanjun.huang@intel.com:
+- 'Display'
+- 'Graphics'
 zachary.zou@intel.com:
 - 'Security /Trusty'
 zhen.han@intel.com:
