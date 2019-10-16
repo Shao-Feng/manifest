@@ -9,6 +9,9 @@
   <project path="kernel/config-mainline-tracking"  name="a/bsp/kernel/config-mainline-tracking" groups="bsp,kernel-src" remote="origin" revision="android/celadon">
         <annotation name="readonly" value="false"/>
   </project>
+  <project path="kernel/mainline-tracking" name="a/bsp/kernel/mainline-tracking" groups="bsp,kernel-src" remote="origin" revision="android/celadon">
+      <annotation name="readonly" value="false"/>
+  </project>
   <project path="vendor/intel/apps/fota" name="a/bsp/vendor/intel/apps/fota" groups="bsp" remote="origin" revision="android/celadon">
       <annotation name="readonly" value="false"/>
   </project>
