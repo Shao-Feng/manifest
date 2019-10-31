@@ -23,12 +23,12 @@ jeevaka.badrappan@intel.com:
 - 'Connectivity-Wifi'
 jenny.q.cao@intel.com:
 - 'HDCP High-bandwidth Digital Content Protection'
-jie.a.bai@intel.com:
-- 'Mixins'
-jin.xiao@intel.com:
-- 'AAF'
 karan.patidar@intel.com:
 - 'Audio'
+kaushlendra.kumar@intel.com:
+- 'AAF'
+- 'Mixins'
+- 'Platform Config'
 kumar.k.m@intel.com:
 - 'Audio'
 lang.li@intel.com:
@@ -43,14 +43,16 @@ roger.feng@intel.com:
 - 'Security /Trusty'
 saranya.gopal@intel.com:
 - 'USB'
+sundar.gnanasekaran@intel.com:
+- 'AAF'
+- 'Mixins'
+- 'Platform Config'
 tao.w.wang@intel.com:
 - 'Manifest'
 tianmi.chen@intel.com:
 - 'Media'
 yihan.he@intel.com:
 - 'Manifest'
-yi.j.sun@intel.com:
-- 'Platform Config'
 yuanjun.huang@intel.com:
 - 'Display'
 - 'Graphics'
@@ -58,7 +60,3 @@ zachary.zou@intel.com:
 - 'Security /Trusty'
 zhen.han@intel.com:
 - 'Energy Management'
-zhuangzhi.li@intel.com:
-- 'AAF'
-- 'Mixins'
-- 'Platform Config'
