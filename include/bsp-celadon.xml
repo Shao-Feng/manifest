@@ -36,6 +36,7 @@
   <project name="MediaSDK" path="vendor/intel/external/mediasdk_opensource" remote="github" revision="master"/>
   <project name="MemTrack" path="hardware/intel/display/libmemtrack" remote="github" revision="master"/>
   <project name="media-driver" path="hardware/intel/external/media/mod" remote="github" revision="master"/>
+  <project name="mediasdk-omx" path="vendor/intel/mediasdk_omx_il" remote="github" revision="master"/>
   <project name="mediasdk_release" path="vendor/intel/mediasdk_release" remote="github" revision="master"/>
   <project name="metrics-discovery" path="hardware/intel/external/mdapi" remote="github" revision="master"/>
   <project name="nn-hal" path="vendor/intel/external/project-celadon/nn-hal" remote="github" revision="master"/>

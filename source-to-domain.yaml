@@ -847,6 +847,7 @@
 - vendor/intel/external/mediasdk_opensource
 - vendor/intel/hardware/PRIVATE/libmediaparser
 - vendor/intel/libstagefrighthw
+- vendor/intel/mediasdk_omx_il
 - vendor/intel/mediasdk_release
 - vendor/intel/tools/ittapi
 'Mixins':
