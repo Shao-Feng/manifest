@@ -39,10 +39,14 @@ lang.li@intel.com:
 - 'Manifest'
 luhai.chen@intel.com:
 - 'Security /Trusty'
+m.balaji@intel.com:
+- 'USB'
 ming.tan@intel.com:
 - 'BOOT - OTA - GOTA'
 pankaj.laxminarayan.bharadiya@intel.com:
 - 'Kernel'
+prabhat.chand.pandey@intel.com:
+- 'USB'
 roger.feng@intel.com:
 - 'Security /Trusty'
 saranya.gopal@intel.com:
@@ -53,6 +57,8 @@ sundar.gnanasekaran@intel.com:
 - 'Platform Config'
 tao.w.wang@intel.com:
 - 'Manifest'
+tanuj.tekriwal@intel.com:
+- 'USB'
 tianmi.chen@intel.com:
 - 'Media'
 vishwanath.somayaji@intel.com:
