@@ -9,6 +9,8 @@ baofeng.tian@intel.com:
 - 'Debug and Trace'
 bing.zhu@intel.com:
 - 'Security /Trusty'
+debarghya.bhattacharya@intel.com:
+- 'Manifest'
 dong.yang@intel.com:
 - 'Camera'
 fei.jiang@intel.com:
@@ -39,12 +41,12 @@ kaushlendra.kumar@intel.com:
 - 'Platform Config'
 kumar.k.m@intel.com:
 - 'Audio'
-lang.li@intel.com:
-- 'Manifest'
 luhai.chen@intel.com:
 - 'Security /Trusty'
 m.balaji@intel.com:
 - 'USB'
+mahesh.magadum@intel.com:
+- 'Manifest'
 ming.tan@intel.com:
 - 'BOOT - OTA - GOTA'
 pankaj.laxminarayan.bharadiya@intel.com:
@@ -61,20 +63,16 @@ sundar.gnanasekaran@intel.com:
 - 'AAF'
 - 'Mixins'
 - 'Platform Config'
-tao.w.wang@intel.com:
-- 'Manifest'
 tanuj.tekriwal@intel.com:
 - 'USB'
 tianmi.chen@intel.com:
 - 'Media'
+vignesh.t.prabhu@intel.com:
+- 'Manifest'
 vishwanath.somayaji@intel.com:
 - 'Power management'
 xihua.chen@intel.com:
 - 'BOOT - OTA - GOTA'
-yihan.he@intel.com:
-- 'Manifest'
-yinweix.wang@intel.com:
-- 'Manifest'
 yu.y.chen@intel.com:
 - 'AOSP'
 yuanjun.huang@intel.com:

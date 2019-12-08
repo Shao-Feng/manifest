@@ -9,6 +9,8 @@ atul.vaish@intel.com:
 - 'Openvino'
 baofeng.tian@intel.com:
 - 'Debug and Trace'
+debarghya.bhattacharya@intel.com:
+- 'Manifest'
 dong.yang@intel.com:
 - 'Camera'
 fei.jiang@intel.com:
@@ -31,10 +33,10 @@ kaushlendra.kumar@intel.com:
 - 'Platform Config'
 kumar.k.m@intel.com:
 - 'Audio'
-lang.li@intel.com:
-- 'Manifest'
 m.balaji@intel.com:
 - 'USB'
+mahesh.magadum@intel.com:
+- 'Manifest'
 pankaj.laxminarayan.bharadiya@intel.com:
 - 'Kernel'
 qihua.zhuang@intel.com:
@@ -49,11 +51,9 @@ sundar.gnanasekaran@intel.com:
 - 'AAF'
 - 'Mixins'
 - 'Platform Config'
-tao.w.wang@intel.com:
-- 'Manifest'
 tianmi.chen@intel.com:
 - 'Media'
-yihan.he@intel.com:
+vignesh.t.prabhu@intel.com:
 - 'Manifest'
 yuanjun.huang@intel.com:
 - 'Display'
