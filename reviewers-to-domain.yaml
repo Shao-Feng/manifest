@@ -1,7 +1,11 @@
 abhilash.k.v@intel.com:
 - 'USB'
+amalendu.prasad.das@intel.com:
+- 'Connectivity-Bluetooth'
 amit.kumar.sharma@intel.com:
 - 'USB'
+ashish@intel.com:
+- 'PnP'
 atul.vaish@intel.com:
 - 'Nn-hal'
 - 'Openvino'
@@ -17,6 +21,8 @@ dong.yang@intel.com:
 - 'Camera'
 fei.jiang@intel.com:
 - 'Graphics'
+g.k.deepa@intel.com:
+- 'Audio'
 hongcheng.xie@intel.com:
 - 'AOSP'
 hongfu.ruan@intel.com:
@@ -27,6 +33,9 @@ jeevaka.badrappan@intel.com:
 - 'Camera'
 - 'Connectivity-Bluetooth'
 - 'Connectivity-Wifi'
+- 'Nn-hal'
+- 'Openvino'
+- 'Platform Config'
 jenny.q.cao@intel.com:
 - 'Display'
 - 'Graphics'
@@ -53,14 +62,24 @@ prabhat.chand.pandey@intel.com:
 - 'USB'
 qiming.shi@intel.com:
 - 'AOSP'
+rajesh.tiwari@intel.com:
+- 'Camera'
+ramesh.babu.b@intel.com:
+- 'Thermal'
+raveendra.babu.chennakesavulu@intel.com:
+- 'Connectivity-Wifi'
 roger.feng@intel.com:
 - 'Security /Trusty'
 saranya.gopal@intel.com:
 - 'USB'
+shiva.kumara.rudrappa@intel.com:
+- 'Camera'
 sundar.gnanasekaran@intel.com:
 - 'AAF'
 - 'Mixins'
 - 'Platform Config'
+- 'PnP'
+- 'Thermal'
 tanuj.tekriwal@intel.com:
 - 'USB'
 tianmi.chen@intel.com:
