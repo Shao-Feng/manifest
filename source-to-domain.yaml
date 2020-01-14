@@ -883,5 +883,6 @@
 - trusty/vendor/google/aosp
 - vendor/intel/fw/evmm
 - vendor/intel/fw/evmm/ikgt
+- vendor/intel/fw/trusty-release-binaries
 'USB':
 - hardware/intel/usb
