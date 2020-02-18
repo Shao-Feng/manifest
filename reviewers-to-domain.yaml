@@ -24,6 +24,8 @@ dong.yang@intel.com:
 - 'Camera'
 fei.jiang@intel.com:
 - 'Graphics'
+- 'Display'
+- 'HDCP High-bandwidth Digital Content Protection'
 g.k.deepa@intel.com:
 - 'Audio'
 hongcheng.xie@intel.com:
@@ -39,10 +41,6 @@ jeevaka.badrappan@intel.com:
 - 'Nn-hal'
 - 'Openvino'
 - 'Platform Config'
-jenny.q.cao@intel.com:
-- 'Display'
-- 'Graphics'
-- 'HDCP High-bandwidth Digital Content Protection'
 kai.z.wang@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'Debug and Trace'
@@ -103,5 +101,6 @@ yu.y.chen@intel.com:
 yuanjun.huang@intel.com:
 - 'Display'
 - 'Graphics'
+- 'HDCP High-bandwidth Digital Content Protection'
 zhen.han@intel.com:
 - 'Energy Management'
