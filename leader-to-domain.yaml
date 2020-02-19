@@ -18,6 +18,7 @@ debarghya.bhattacharya@intel.com:
 dong.yang@intel.com:
 - 'Camera'
 fei.jiang@intel.com:
+- 'Display'
 - 'Graphics'
 - 'HDCP High-bandwidth Digital Content Protection'
 g.k.deepa@intel.com:
@@ -76,7 +77,6 @@ vignesh.t.prabhu@intel.com:
 yuanjun.huang@intel.com:
 - 'Display'
 - 'Graphics'
-yuanjun.huang@intel.com:
 - 'HDCP High-bandwidth Digital Content Protection'
 zachary.zou@intel.com:
 - 'Security /Trusty'
