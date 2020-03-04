@@ -791,7 +791,6 @@
 - vendor/intel/external/project-celadon/audio_pfw/hal
 - vendor/intel/external/project-celadon/audio_pfw/utilities
 'BOOT - OTA - GOTA':
-- bootable/liveinstaller
 - device/intel/build
 - hardware/intel/bootctrl
 - hardware/intel/external/gnu-efi
