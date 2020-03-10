@@ -4,7 +4,7 @@ import json
 import shlex
 import subprocess
 import unittest
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 from manifest_xutils import yaml
 
 MAGIC_PREFIX = ")]}'"
@@ -47,16 +47,16 @@ class CheckVerifiersAndReviewers(object):
         for user in users:
             url = "https://android.intel.com/accounts/%s" % (user,)
             try:
-                data = urllib2.urlopen(url).read()
+                data = urllib.request.urlopen(url).read()
                 _, _, account = data.partition(MAGIC_PREFIX)
                 account = json.loads(account)
                 email = account['email']
                 if user != email:
                     invalid_users.append([user, users[user][1]])
-                    print ("\nInvalid user in yaml:\n"
+                    print(("\nInvalid user in yaml:\n"
                            "Got: %s\n"
-                           "Expected from Gerrit settings: %s\n" % (user, email))
-            except urllib2.HTTPError:
+                           "Expected from Gerrit settings: %s\n" % (user, email)))
+            except urllib.error.HTTPError:
                 invalid_users.append([user, users[user][1]])
         return invalid_users
 

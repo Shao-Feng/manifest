@@ -6,7 +6,7 @@ import unittest
 import yaml
 import re
 from textwrap import dedent
-from StringIO import StringIO
+from io import StringIO
 
 CATEGORIES = ['aosp improvement', 'device enablement', 'feature differentiation']
 
@@ -18,9 +18,9 @@ class TestAospDomains(unittest.TestCase):
     def testParseToDomainConfig(self):
         fn = os.path.join(os.path.dirname(__file__), "..", "aosp_domains.yaml")
         domains = yaml.load(open(fn))
-        for d, subdomains in domains.iteritems():
+        for d, subdomains in domains.items():
             if subdomains:
-                for sd, parms in subdomains.iteritems():
+                for sd, parms in subdomains.items():
                     for c in parms["Categories"]:
                         self.assertTrue(c in CATEGORIES,
                                         "invalid category %s for domain %s-%s" % (c, d, sd) +
@@ -37,8 +37,8 @@ class TestCheckPatch(unittest.TestCase):
         """
         try:
             callable_obj(*args, **kwargs)
-        except expected_exception, exc_value:
-            if isinstance(expected_regexp, basestring):
+        except expected_exception as exc_value:
+            if isinstance(expected_regexp, str):
                 expected_regexp = re.compile(expected_regexp)
             if not expected_regexp.search(str(exc_value)):
                 raise self.failureException('"%s" does not match "%s"' %
@@ -48,7 +48,7 @@ class TestCheckPatch(unittest.TestCase):
                 excName = expected_exception.__name__
             else:
                 excName = str(expected_exception)
-            raise self.failureException, "%s not raised" % excName
+            raise self.failureException("%s not raised" % excName)
 
     def oneTest(self, commit_comment, expectedFail=None, repository="/not/aosp"):
         patch_trailer = """
@@ -73,7 +73,7 @@ class TestCheckPatch(unittest.TestCase):
         def fail(msg, *args):
             raise CheckPatchFail(msg % args)
         if expectedFail:
-            self.assertRaisesRegexp(CheckPatchFail, re.compile(expectedFail),
+            self.assertRaisesRegex(CheckPatchFail, re.compile(expectedFail),
                                     main, patch, fail, repository)
         else:
             main(patch, fail, repository)

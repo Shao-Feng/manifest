@@ -35,7 +35,7 @@ class CheckManifestSrcPath(object):
                     try:
                         dummy = project.xpath("@path")[0]
                     except IndexError:
-                        print "error in file : >%s< may be project have no path ?" %(manifest)
+                        print("error in file : >%s< may be project have no path ?" %(manifest))
                     if dummy in listProject:
                         self.project_path_list.append([dummy , manifest])
 
@@ -62,12 +62,12 @@ class CheckManifestXML(object):
                   if filename.endswith(".xml"):
                     manifests.append(os.path.join(directory_to_scan,filename))
            except OSError:
-               print "\nimpossible to access directory >>%s<<\n" % (directory_to_scan)
+               print("\nimpossible to access directory >>%s<<\n" % (directory_to_scan))
         return manifests
 
     def checkManifestAgainstDtd(self, manifest, dtd):
         """ check that manifest comply with the DTD (Document Type Definition) """
-        print "\nChecking %s manifest" % (manifest,)
+        print("\nChecking %s manifest" % (manifest,))
         manifest_tree = etree.parse(manifest)
         dtd.assertValid(manifest_tree)
 
@@ -94,7 +94,7 @@ class CheckManifestXML(object):
         """ check consistency between external annotations in manifest and customer yaml file """
         external_customers = self.externalCustomersFromYaml(customers_to_project_groups)
         manifest_tree = etree.parse(manifest)
-        print "\nChecking external annotations in %s manifest" % (manifest,)
+        print("\nChecking external annotations in %s manifest" % (manifest,))
         projects = manifest_tree.xpath("/manifest/project")
         for project in projects:
             project_name = project.xpath("@name")[0]
@@ -173,7 +173,7 @@ class TestCheckManifestXML(unittest.TestCase):
     def assertRaisesWithMessage(self, exceptionClass, expectedMessage, callableObj, *args, **kw):
         try:
             callableObj(*args, **kw)
-        except exceptionClass, err:
+        except exceptionClass as err:
             self.assertEqual(str(err), expectedMessage)
             return
         raise Exception("%s not raised" % (exceptionClass,))
@@ -272,7 +272,7 @@ class TestCheckManifestXML(unittest.TestCase):
         try:
             c.checkAllManifestsAgainstDtd()
         except:
-            print "Warning: Exception found on DTD check, update dtd template and resume"
+            print("Warning: Exception found on DTD check, update dtd template and resume")
             pass
 
     def testCheckAllPrivateManifestsExternalAnnotation(self):

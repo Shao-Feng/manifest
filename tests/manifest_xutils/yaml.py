@@ -61,7 +61,7 @@
 ####################################################################################################
 
 # absolute_import enforce the import of the real yaml loader, and not reimport myself!
-from __future__ import absolute_import
+
 
 import logging as _logging
 
@@ -115,7 +115,7 @@ class DuplicateCheckLoader(Loader):
             key = self.construct_object(key_node, deep=deep)
             try:
                 hash(key)
-            except TypeError, exc:
+            except TypeError as exc:
                 raise ConstructorError("while constructing a mapping", node.start_mark,
                                        "found unacceptable key (%s)" % exc, key_node.start_mark)
             value = self.construct_object(value_node, deep=deep)
@@ -142,10 +142,10 @@ class OrderedMapAndDuplicateCheckLoader(DuplicateCheckLoader):
 
 # Overwrite the map creation constructors
 OrderedMapAndDuplicateCheckLoader.add_constructor(
-    u'tag:yaml.org,2002:map',
+    'tag:yaml.org,2002:map',
     OrderedMapAndDuplicateCheckLoader.construct_yaml_map)
 OrderedMapAndDuplicateCheckLoader.add_constructor(
-    u'tag:yaml.org,2002:python/dict',
+    'tag:yaml.org,2002:python/dict',
     OrderedMapAndDuplicateCheckLoader.construct_yaml_map)
 _orig_load = load
 
