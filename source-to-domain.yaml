@@ -796,7 +796,6 @@
 - hardware/intel/external/gnu-efi
 - hardware/intel/kernelflinger
 - vendor/intel/apps/fota
-- vendor/intel/external/openssl
 'Camera':
 - vendor/intel/external/apps
 'Connectivity-Wifi':
