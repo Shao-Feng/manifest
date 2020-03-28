@@ -39,6 +39,7 @@ jeevaka.badrappan@intel.com:
 - 'Camera'
 - 'Connectivity-Bluetooth'
 - 'Connectivity-Wifi'
+- 'Mixins'
 - 'Nn-hal'
 - 'Openvino'
 - 'Platform Config'
