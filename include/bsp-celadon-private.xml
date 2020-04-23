@@ -36,6 +36,7 @@
   <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="3" spsId="59122" remote="origin" revision="android/celadon">
         <annotation name="readonly" value="false"/>
   </project>
+  <project path="vendor/intel/inteloneapi" name="a/bsp/vendor/intel/inteloneapi" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon"/>
   <project path="vendor/intel/utils_priv" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
