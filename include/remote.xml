@@ -22,9 +22,6 @@
   <remote name="intel"
           fetch="ssh://github.com/intel" />
 
-  <remote name="trusty-ia"
-          fetch="ssh://github.com/trusty-ia" />
-
   <remote name="aquynh"
           fetch="ssh://github.com/aquynh" />
 
