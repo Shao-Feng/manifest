@@ -783,7 +783,6 @@
 - tools/trebuchet
 - vendor/google/gas
 - vendor/google/gms
-- vendor/intel/cic
 - vendor/intel/utils/aosp_diff
 - vendor/intel/utils_priv/aosp_diff
 'Audio':
