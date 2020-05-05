@@ -819,6 +819,8 @@
 'Energy Management':
 - external/thermal_daemon
 - vendor/intel/external/project-celadon/lights
+- vendor/intel/hardware/interfaces/health
+- vendor/intel/hardware/interfaces/thermal
 'Graphics':
 - external/minigbm
 - hardware/intel/external/mdapi
@@ -869,4 +871,9 @@
 - vendor/intel/fw/evmm/ikgt
 - vendor/intel/fw/trusty-release-binaries
 'USB':
+- device/intel/mixins/groups/usb-audio-init
+- device/intel/mixins/groups/usb-gadget
+- device/intel/mixins/groups/usb-init
+- device/intel/mixins/groups/usb-otg-switch
+- device/intel/mixins/groups/usb
 - hardware/intel/usb
