@@ -59,7 +59,9 @@ luhai.chen@intel.com:
 - 'Security /Trusty'
 m.balaji@intel.com:
 - 'Energy Management'
+- 'Mixins'
 - 'USB'
+- 'Platform Config'
 mahesh.magadum@intel.com:
 - 'Manifest'
 pankaj.laxminarayan.bharadiya@intel.com:
