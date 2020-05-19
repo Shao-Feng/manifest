@@ -24,9 +24,6 @@
       <annotation name="bxt_rvp_external" value="bin"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/tools/log_capture_priv" name="a/bsp/device/intel/log_capture_priv" spsId="59066" remote="origin" revision="android/celadon">
-        <annotation name="readonly" value="false"/>
-  </project>
   <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="3" spsId="59122" remote="origin" revision="android/celadon">
         <annotation name="readonly" value="false"/>
   </project>
