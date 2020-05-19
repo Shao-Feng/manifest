@@ -9,9 +9,6 @@
   <project path="vendor/intel/apps/fota" name="a/bsp/vendor/intel/apps/fota" groups="bsp" remote="origin" revision="android/celadon">
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/external/project-celadon/lights" name="a/bsp/vendor/intel/external/lighthal" remote="origin" revision="android/celadon">
-    <annotation name="readonly" value="false"/>
-  </project>
   <project path="vendor/intel/external/s2diskus" name="a/bsp/vendor/intel/external/s2diskus" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon">
       <annotation name="g_external" value="bin"/>
       <annotation name="all_external" value="bin"/>
