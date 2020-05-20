@@ -822,6 +822,8 @@
 - vendor/intel/external/project-celadon/lights
 - vendor/intel/hardware/interfaces/health
 - vendor/intel/hardware/interfaces/thermal
+- device/intel/civ/host/backend/battery
+- device/intel/civ/host/backend/thermal
 'Graphics':
 - external/minigbm
 - hardware/intel/external/mdapi
