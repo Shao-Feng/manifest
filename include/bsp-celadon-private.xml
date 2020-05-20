@@ -15,12 +15,6 @@
       <annotation name="bxt_rvp_external" value="bin"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/hardware/PRIVATE/libmediaparser" name="a/bsp/vendor/intel/hardware/PRIVATE/libmediaparser" groups="bsp-priv" remote="origin" revision="android/celadon">
-      <annotation name="g_external" value="bin"/>
-      <annotation name="all_external" value="bin"/>
-      <annotation name="bxt_rvp_external" value="bin"/>
-      <annotation name="readonly" value="false"/>
-  </project>
   <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="3" spsId="59122" remote="origin" revision="android/celadon">
         <annotation name="readonly" value="false"/>
   </project>
