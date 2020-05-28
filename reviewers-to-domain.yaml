@@ -35,6 +35,8 @@ hongfu.ruan@intel.com:
 - 'Media'
 hongyu.zhang@intel.com:
 - 'AOSP'
+jaishankar.rajendran@intel.com:
+- 'Platform Config Private Diff'
 jeevaka.badrappan@intel.com:
 - 'AOSP'
 - 'Camera'
@@ -44,6 +46,7 @@ jeevaka.badrappan@intel.com:
 - 'Nn-hal'
 - 'Openvino'
 - 'Platform Config'
+- 'Platform Config Private Diff'
 kai.z.wang@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'Debug and Trace'
@@ -54,6 +57,7 @@ kaushlendra.kumar@intel.com:
 - 'AAF'
 - 'Mixins'
 - 'Platform Config'
+- 'Platform Config Private Diff'
 kumar.k.m@intel.com:
 - 'Audio'
 luhai.chen@intel.com:
@@ -63,8 +67,11 @@ m.balaji@intel.com:
 - 'Mixins'
 - 'USB'
 - 'Platform Config'
+- 'Platform Config Private Diff'
 mahesh.magadum@intel.com:
 - 'Manifest'
+murali.mohan@intel.com:
+- 'Platform Config Private Diff'
 pankaj.laxminarayan.bharadiya@intel.com:
 - 'Kernel'
 prabhat.chand.pandey@intel.com:
@@ -87,6 +94,7 @@ sundar.gnanasekaran@intel.com:
 - 'AAF'
 - 'Mixins'
 - 'Platform Config'
+- 'Platform Config Private Diff'
 - 'PnP'
 - 'Thermal'
 tanuj.tekriwal@intel.com:

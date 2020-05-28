@@ -863,6 +863,7 @@
 - device/intel/common
 - device/intel/project-celadon
 - vendor/intel/utils
+'Platform Config Private Diff':
 - vendor/intel/utils_priv
 'Power management':
 - hardware/intel/power
