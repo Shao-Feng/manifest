@@ -875,6 +875,8 @@
 - vendor/intel/fw/evmm/ikgt
 - vendor/intel/fw/trusty-release-binaries
 - device/intel/civ/host/vm-manager
+'Sensor':
+- hardware/intel/sensors/mediation
 'USB':
 - device/intel/mixins/groups/usb-audio-init
 - device/intel/mixins/groups/usb-gadget

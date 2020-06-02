@@ -71,4 +71,5 @@
   <project name="linux-intel-lts2019-yocto" path="kernel/lts2019-yocto" remote="github" revision="master" />
   <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="master" />
   <project name="device-intel-civ-thermal" path="device/intel/civ/host/backend/thermal" remote="github" revision="master" />
+  <project name="sensor-mediation" path="hardware/intel/sensors/mediation" remote="github" revision="master" />
 </manifest>

@@ -72,6 +72,8 @@ mahesh.magadum@intel.com:
 - 'Manifest'
 murali.mohan@intel.com:
 - 'Platform Config Private Diff'
+nemallapudi.jaikrishna@intel.com:
+- 'Sensor'
 pankaj.laxminarayan.bharadiya@intel.com:
 - 'Kernel'
 prabhat.chand.pandey@intel.com:
@@ -80,8 +82,11 @@ qiming.shi@intel.com:
 - 'AOSP'
 rajesh.tiwari@intel.com:
 - 'Camera'
+raju.mallikarjun.chegaraddi@intel.com:
+- 'Sensor'
 ramesh.babu.b@intel.com:
 - 'Thermal'
+- 'Sensor'
 raveendra.babu.chennakesavulu@intel.com:
 - 'Connectivity-Wifi'
 roger.feng@intel.com:
