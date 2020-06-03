@@ -877,6 +877,7 @@
 - device/intel/civ/host/vm-manager
 'Sensor':
 - hardware/intel/sensors/mediation
+- device/intel/civ/host/virtual-input-manager
 'USB':
 - device/intel/mixins/groups/usb-audio-init
 - device/intel/mixins/groups/usb-gadget
