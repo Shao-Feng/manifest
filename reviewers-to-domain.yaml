@@ -63,6 +63,12 @@ kaushlendra.kumar@intel.com:
 kumar.k.m@intel.com:
 - 'Audio'
 luhai.chen@intel.com:
+- 'AAF'
+- 'BOOT - OTA - GOTA'
+- 'Debug and Trace'
+- 'Mixins'
+- 'Platform Config'
+- 'Platform Config Private Diff'
 - 'Security /Trusty'
 m.balaji@intel.com:
 - 'Energy Management'
