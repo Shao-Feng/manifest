@@ -19,6 +19,7 @@
 
   <include name="include/celadon-manifest.xml" />
   <include name="include/aosp_vanilla.xml" />
+  <include name="include/remove_vanilla.xml" />
   <include name="include/bsp-celadon.xml" />
   <include name="include/bsp-celadon-private.xml"/>
 
