@@ -791,7 +791,6 @@
 - vendor/intel/external/project-celadon/audio_pfw/hal
 - vendor/intel/external/project-celadon/audio_pfw/utilities
 'BOOT - OTA - GOTA':
-- device/intel/build
 - hardware/intel/bootctrl
 - hardware/intel/external/gnu-efi
 - hardware/intel/kernelflinger
@@ -860,6 +859,7 @@
 - vendor/intel/external/project-celadon/dldt
 - vendor/intel/external/project-celadon/ade
 'Platform Config':
+- device/intel/build
 - device/intel/common
 - device/intel/project-celadon
 - vendor/intel/utils
