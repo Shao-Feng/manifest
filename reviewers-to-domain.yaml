@@ -60,6 +60,7 @@ kaushlendra.kumar@intel.com:
 - 'Mixins'
 - 'Platform Config'
 - 'Platform Config Private Diff'
+- 'Power management'
 kumar.k.m@intel.com:
 - 'Audio'
 luhai.chen@intel.com:
@@ -121,8 +122,6 @@ tianmi.chen@intel.com:
 - 'Media'
 vignesh.t.prabhu@intel.com:
 - 'Manifest'
-vishwanath.somayaji@intel.com:
-- 'Power management'
 xihua.chen@intel.com:
 - 'BOOT - OTA - GOTA'
 yang.a.lu@intel.com:

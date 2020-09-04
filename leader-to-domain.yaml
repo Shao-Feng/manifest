@@ -1,5 +1,3 @@
-abhilash.kesavan@intel.com:
-- 'Power management'
 abhilash.k.v@intel.com:
 - 'USB'
 amalendu.prasad.das@intel.com:
@@ -41,6 +39,7 @@ kaushlendra.kumar@intel.com:
 - 'AAF'
 - 'Mixins'
 - 'Platform Config'
+- 'Power management'
 kumar.k.m@intel.com:
 - 'Audio'
 m.balaji@intel.com:
