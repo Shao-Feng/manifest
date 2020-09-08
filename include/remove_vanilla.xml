@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-    <!-- Projects which need to be removed -->
-    <remove-project name="platform/external/drm_hwcomposer" />
-    <remove-project name="platform/external/minigbm" />
-
-</manifest>
