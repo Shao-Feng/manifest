@@ -875,6 +875,7 @@
 - vendor/intel/fw/evmm/ikgt
 - vendor/intel/fw/trusty-release-binaries
 - device/intel/civ/host/vm-manager
+- vendor/intel/fw/keybox_provisioning
 'Sensor':
 - hardware/intel/sensors/mediation
 - device/intel/civ/host/virtual-input-manager
