@@ -4,8 +4,8 @@
  <notice>Celadon_Ring='2'</notice>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com" />
-  <default revision="refs/tags/android-10.0.0_r33"
+           fetch="https://android-review.googlesource.com" />
+  <default revision="refs/tags/android-11.0.0_r3"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
