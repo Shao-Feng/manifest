@@ -9,6 +9,6 @@
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-
+  <project path="vendor/intel/inteloneapi" name="a/bsp/vendor/intel/inteloneapi" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon"/>
 
 </manifest>
