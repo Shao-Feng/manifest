@@ -49,6 +49,7 @@ jeevaka.badrappan@intel.com:
 - 'Openvino'
 - 'Platform Config'
 - 'Platform Config Private Diff'
+- 'Sensor'
 kai.z.wang@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'Debug and Trace'
