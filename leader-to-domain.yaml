@@ -21,8 +21,6 @@ fei.jiang@intel.com:
 - 'HDCP High-bandwidth Digital Content Protection'
 g.k.deepa@intel.com:
 - 'Audio'
-hongfu.ruan@intel.com:
-- 'Media'
 james.wu@intel.com:
 - 'AOSP'
 jeevaka.badrappan@intel.com:
@@ -86,3 +84,5 @@ zachary.zou@intel.com:
 - 'Security /Trusty'
 zhen.han@intel.com:
 - 'Energy Management'
+yuanjun.huang@intel.com:
+- 'Media'
