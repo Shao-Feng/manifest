@@ -81,8 +81,6 @@ ramesh.babu.b@intel.com:
 - 'Sensor'
 raveendra.babu.chennakesavulu@intel.com:
 - 'Connectivity-Wifi'
-roger.feng@intel.com:
-- 'Security /Trusty'
 saranya.gopal@intel.com:
 - 'USB'
 shiva.kumara.rudrappa@intel.com:
@@ -95,10 +93,12 @@ sundar.gnanasekaran@intel.com:
 - 'Platform Config'
 - 'Platform Config Private Diff'
 - 'PnP'
+- 'Security /Trusty'
 - 'Thermal'
 swaroop.balan@intel.com:
 - 'Platform Config'
 - 'Platform Config Private Diff'
+- 'Security /Trusty'
 tanuj.tekriwal@intel.com:
 - 'USB'
 tianmi.chen@intel.com:
