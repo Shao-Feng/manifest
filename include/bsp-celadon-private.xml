@@ -10,5 +10,6 @@
       <annotation name="readonly" value="false"/>
   </project>
   <project path="vendor/intel/inteloneapi" name="a/bsp/vendor/intel/inteloneapi" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon"/>
+  <project path="device/intel/dev" name="a/bsp/device/intel/dev" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon"/>
 
 </manifest>
