@@ -91,7 +91,10 @@ saranya.gopal@intel.com:
 shiva.kumara.rudrappa@intel.com:
 - 'Camera'
 shyjumon.n@intel.com:
+- 'AOSP'
 - 'AOSP-Intel'
+- 'Platform Config'
+- 'Platform Config Private Diff'
 sundar.gnanasekaran@intel.com:
 - 'AAF'
 - 'Mixins'
