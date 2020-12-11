@@ -13,4 +13,5 @@
   <project path="device/intel/dev" name="a/bsp/device/intel/dev" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon"/>
   <project path="vendor/intel/fw/keybox_provisioning" name="a/bsp/vendor/intel/fw/keybox_provisioning" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon"/>
 
+  <project path="vendor/partner_modules" name="a/bsp/vendor/partner_modules" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon"/>
 </manifest>

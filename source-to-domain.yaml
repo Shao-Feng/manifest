@@ -786,6 +786,7 @@
 - vendor/intel/inteloneapi
 - vendor/intel/utils/aosp_diff
 - vendor/intel/utils_priv/aosp_diff
+- vendor/partner_modules
 'Audio':
 - vendor/intel/external/project-celadon/audio
 - vendor/intel/external/project-celadon/audio_pfw/hal
