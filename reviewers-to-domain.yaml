@@ -112,10 +112,11 @@ tanuj.tekriwal@intel.com:
 tianmi.chen@intel.com:
 - 'Media'
 vignesh.t.prabhu@intel.com:
-- 'AOSP'
 - 'Manifest'
 xihua.chen@intel.com:
 - 'BOOT - OTA - GOTA'
+yadong.qi@intel.com:
+- 'Security /Trusty'
 yang.a.lu@intel.com:
 - 'Display'
 - 'Graphics'
@@ -130,5 +131,5 @@ zhe.zhu@intel.com:
 - 'Media'
 zhen.han@intel.com:
 - 'Energy Management'
-yadong.qi@intel.com:
+zhenlong.z.ji@intel.com:
 - 'Security /Trusty'
