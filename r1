@@ -5,7 +5,7 @@
 
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com" />
-  <default revision="refs/tags/android-11.0.0_r27"
+  <default revision="refs/tags/android-11.0.0_r33"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
