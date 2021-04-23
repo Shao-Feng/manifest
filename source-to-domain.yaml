@@ -853,6 +853,7 @@
 - vendor/intel/mediasdk_release
 - vendor/intel/tools/ittapi
 'Mixins':
+- device/intel/dev
 - device/intel/mixins
 'Nn-hal':
 - vendor/intel/external/project-celadon/nn-hal
