@@ -14,6 +14,10 @@
           fetch="ssh://android-mirror.devtools.intel.com"
           review="https://android.intel.com" />
 
+  <remote name="innersource"
+          fetch="https://github.com/intel-innersource/"
+          review="https://github.com/intel-innersource/" />
+
   <remote  name="github"
            fetch="https://github.com/projectceladon/" />
 

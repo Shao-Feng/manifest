@@ -3,15 +3,15 @@
   <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="3" spsId="59122" remote="origin" revision="android/celadon">
         <annotation name="readonly" value="false"/>
   </project>
-  <project path="vendor/intel/utils_priv" name="a/bsp/vendor/intel/PRIVATE/utils" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon">
+  <project path="vendor/intel/utils_priv" name="os.android.bsp.private-utils" groups="bsp-priv,embargoed" remote="innersource" revision="android/celadon">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="bxt_rvp_external" value="no"/>
       <annotation name="readonly" value="false"/>
   </project>
-  <project path="external/inteloneapi" name="a/bsp/vendor/intel/inteloneapi" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon"/>
-  <project path="device/intel/dev" name="a/bsp/device/intel/dev" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon"/>
-  <project path="vendor/intel/fw/keybox_provisioning" name="a/bsp/vendor/intel/fw/keybox_provisioning" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon"/>
+  <project path="external/inteloneapi" name="os.android.bsp.inteloneapi" groups="bsp-priv,embargoed" remote="innersource" revision="android/celadon"/>
+  <project path="device/intel/dev" name="os.android.bsp.device-intel-dev" groups="bsp-priv,embargoed" remote="innersource" revision="android/celadon"/>
+  <project path="vendor/intel/fw/keybox_provisioning" name="os.android.bsp.keybox-provisioning" groups="bsp-priv,embargoed" remote="innersource" revision="android/celadon"/>
 
   <project path="vendor/partner_modules" name="a/bsp/vendor/partner_modules" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon"/>
 </manifest>
