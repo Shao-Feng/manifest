@@ -12,6 +12,7 @@
   <project path="external/inteloneapi" name="os.android.bsp.inteloneapi" groups="bsp-priv,embargoed" remote="innersource" revision="android/celadon"/>
   <project path="device/intel/dev" name="os.android.bsp.device-intel-dev" groups="bsp-priv,embargoed" remote="innersource" revision="android/celadon"/>
   <project path="vendor/intel/fw/keybox_provisioning" name="os.android.bsp.keybox-provisioning" groups="bsp-priv,embargoed" remote="innersource" revision="android/celadon"/>
+  <project path="vendor/intel/app_icon_manager" name="os.android.bsp.app-icon-manager" groups="bsp-priv,embargoed" remote="innersource" revision="android/celadon"/>
 
   <project path="vendor/partner_modules" name="a/bsp/vendor/partner_modules" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon"/>
 </manifest>
