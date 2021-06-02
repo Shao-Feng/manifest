@@ -854,7 +854,6 @@
 - vendor/intel/mediasdk_release
 - vendor/intel/tools/ittapi
 'Mixins':
-- device/intel/dev
 - device/intel/mixins
 'Nn-hal':
 - vendor/intel/external/project-celadon/nn-hal
@@ -868,6 +867,8 @@
 - vendor/intel/utils
 'Platform Config Private Diff':
 - vendor/intel/utils_priv
+'Platform Config-Dev':
+- device/intel/dev
 'Power management':
 - hardware/intel/power
 - vendor/intel/external/s2diskus
