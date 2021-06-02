@@ -32,6 +32,7 @@ jeevaka.badrappan@intel.com:
 - 'Platform Config'
 - 'Platform Config Private Diff'
 - 'Sensor'
+- 'Platform Config-Dev'
 jaishankar.rajendran@intel.com:
 - 'Platform Config Private Diff'
 kai.z.wang@intel.com:
@@ -46,6 +47,7 @@ kaushlendra.kumar@intel.com:
 - 'Platform Config'
 - 'Platform Config Private Diff'
 - 'Power management'
+- 'Platform Config-Dev'
 kumar.k.m@intel.com:
 - 'Audio'
 luhai.chen@intel.com:
@@ -56,6 +58,7 @@ luhai.chen@intel.com:
 - 'Platform Config'
 - 'Platform Config Private Diff'
 - 'Security /Trusty'
+- 'Platform Config-Dev'
 m.balaji@intel.com:
 - 'Energy Management'
 - 'Mixins'
@@ -95,10 +98,12 @@ sundar.gnanasekaran@intel.com:
 - 'PnP'
 - 'Security /Trusty'
 - 'Thermal'
+- 'Platform Config-Dev'
 swaroop.balan@intel.com:
 - 'Platform Config'
 - 'Platform Config Private Diff'
 - 'Security /Trusty'
+- 'Platform Config-Dev'
 tanuj.tekriwal@intel.com:
 - 'USB'
 tianmi.chen@intel.com:
