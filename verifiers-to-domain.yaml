@@ -39,8 +39,6 @@ kai.z.wang@intel.com:
 - 'BOOT - OTA - GOTA'
 - 'Debug and Trace'
 - 'Security /Trusty'
-karan.patidar@intel.com:
-- 'Audio'
 kaushlendra.kumar@intel.com:
 - 'AAF'
 - 'Mixins'
@@ -48,8 +46,6 @@ kaushlendra.kumar@intel.com:
 - 'Platform Config Private Diff'
 - 'Power management'
 - 'Platform Config-Dev'
-kumar.k.m@intel.com:
-- 'Audio'
 luhai.chen@intel.com:
 - 'AAF'
 - 'BOOT - OTA - GOTA'
@@ -65,12 +61,15 @@ m.balaji@intel.com:
 - 'Platform Config'
 - 'Platform Config Private Diff'
 - 'USB'
+- 'Audio'
 mahesh.magadum@intel.com:
 - 'Manifest'
 murali.mohan@intel.com:
 - 'Platform Config Private Diff'
 nemallapudi.jaikrishna@intel.com:
 - 'Sensor'
+padmashree.mandri@intel.com:
+- 'Audio'
 pankaj.laxminarayan.bharadiya@intel.com:
 - 'Kernel'
 prabhat.chand.pandey@intel.com:
