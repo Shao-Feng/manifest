@@ -10,10 +10,6 @@
            sync-c="true"
            sync-j="4" />
 
-  <remote name="origin"
-          fetch="ssh://android-mirror.devtools.intel.com"
-          review="https://android.intel.com" />
-
   <remote name="innersource"
           fetch="https://github.com/intel-innersource/"
           review="https://github.com/intel-innersource/" />

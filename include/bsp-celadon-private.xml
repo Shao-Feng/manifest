@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="vendor/google/gms" name="a/bsp/vendor/google/PRIVATE/gms" groups="embargoed,osna" clone-depth="3" spsId="59122" remote="origin" revision="android/celadon">
+  <project path="vendor/google/gms" name="os.android.bsp.vendor-google-gms" groups="embargoed,osna" clone-depth="3" spsId="59122" remote="restricted" revision="android/celadon">
         <annotation name="readonly" value="false"/>
   </project>
   <project path="vendor/intel/utils_priv" name="os.android.bsp.private-utils" groups="bsp-priv,embargoed" remote="innersource" revision="android/celadon">
@@ -14,5 +14,5 @@
   <project path="vendor/intel/fw/keybox_provisioning" name="os.android.bsp.keybox-provisioning" groups="bsp-priv,embargoed" remote="innersource" revision="android/celadon"/>
   <project path="vendor/intel/app_icon_manager" name="os.android.bsp.app-icon-manager" groups="bsp-priv,embargoed" remote="innersource" revision="android/celadon"/>
 
-  <project path="vendor/partner_modules" name="a/bsp/vendor/partner_modules" groups="bsp-priv,embargoed" remote="origin" revision="android/celadon"/>
+  <project path="vendor/partner_modules" name="os.android.bsp.vendor-google-partner-modules" groups="bsp-priv,embargoed" remote="restricted" revision="android/celadon"/>
 </manifest>

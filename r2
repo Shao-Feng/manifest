@@ -18,6 +18,10 @@
           fetch="https://github.com/intel-innersource/"
           review="https://github.com/intel-innersource/" />
 
+  <remote name="restricted"
+          fetch="https://github.com/intel-restricted/"
+          review="https://github.com/intel-restricted/" />
+
   <remote  name="github"
            fetch="https://github.com/projectceladon/" />
 
