@@ -175,6 +175,7 @@
 - external/ImageMagick
 - external/image_io
 - external/ims
+- external/inteloneapi
 - external/iperf3
 - external/iproute2
 - external/ipsec-tools
@@ -783,7 +784,6 @@
 - tools/trebuchet
 - vendor/google/gas
 - vendor/google/gms
-- vendor/intel/inteloneapi
 - vendor/intel/utils/aosp_diff
 - vendor/intel/utils_priv/aosp_diff
 - vendor/partner_modules
