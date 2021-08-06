@@ -817,6 +817,7 @@
 - hardware/intel/external/drm-intel
 - hardware/intel/external/minigbm-intel
 - vendor/intel/external/hwcomposer-intel
+- vendor/intel/external/hwcomposer-vhal
 - vendor/intel/app_icon_manager
 'Energy Management':
 - external/thermal_daemon
