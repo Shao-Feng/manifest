@@ -78,4 +78,5 @@
   <project name="virtual-input-manager" path="device/intel/civ/host/virtual-input-manager" remote="github" revision="master" />
   <project name="vm_manager" path="device/intel/civ/host/vm-manager" remote="github" revision="master" />
   <project name="linux-intel-lts2020-yocto" path="kernel/lts2020-yocto" remote="github" revision="main" />
+  <project name="app-icon-manager" path="vendor/intel/app_icon_manager" remote="github" revision="main" />
 </manifest>
