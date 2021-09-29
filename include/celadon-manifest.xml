@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="manifests" name="os.android.bsp.manifests"  groups="bsp-priv,embargoed" revision="android/celadon" remote="innersource">
+  <project path="manifests" name="os.android.bsp.manifests"  groups="bsp-priv,embargoed" revision="celadon/r/mr0/stable" remote="innersource">
       <annotation name="g_external" value="no"/>
       <annotation name="all_external" value="no"/>
       <annotation name="readonly" value="false"/>
