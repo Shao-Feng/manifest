@@ -804,7 +804,6 @@
 - vendor/intel/hardware/interfaces
 'Connectivity-Bluetooth':
 - hardware/intel/libbt-vendor-intel
-- vendor/intel/external/hcitools-intel
 'Debug and Trace':
 - vendor/intel/external/pciutils-intel
 - vendor/intel/libdmi
