@@ -17,6 +17,9 @@
   <remote  name="github"
            fetch="https://github.com/projectceladon/" />
 
+  <remote  name="intel"
+           fetch="https://github.com/intel/" />
+
   <include name="include/celadon-manifest.xml" />
   <include name="include/aosp_vanilla.xml" />
   <include name="include/bsp-celadon.xml" />
