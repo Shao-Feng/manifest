@@ -69,6 +69,8 @@
   <project name="hwc-vhal" path="vendor/intel/external/hwcomposer-vhal" remote="github" revision="celadon/r/mr0/stable" />
   <project name="minigbm" path="hardware/intel/external/minigbm-intel"  remote="github" revision="celadon/r/mr0/stable" />
 
+  <project name="v4l2-codec2-virtio" path="vendor/intel/external/v4l2_codec2"  remote="github" revision="main" />
+
   <project name="linux-intel-lts2019-chromium" path="kernel/lts2019-chromium" remote="github" revision="celadon/r/mr0/stable" />
   <project name="linux-intel-lts2019-yocto" path="kernel/lts2019-yocto" remote="github" revision="celadon/r/mr0/stable" />
   <project name="device-intel-civ-battery" path="device/intel/civ/host/backend/battery" remote="github" revision="celadon/r/mr0/stable" />
